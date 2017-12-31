@@ -33,16 +33,16 @@ class Contact extends React.Component {
         <div className="clearfix grpelem" id="u29342">{/* group */}
           <div className="rounded-corners clearfix grpelem shared_content" id="u25490-7" data-content-guid="u25490-7_content">{/* content */}
             <p id="u25490-3"><span id="u25490">​</span><span className="actAsInlineDiv normal_text" id="u25516">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u25509">{/* group */}<span className="actAsDiv rounded-corners clearfix grpelem" id="u25511">{/* group */}<span className="actAsDiv grpelem" id="u25510">{/* custom html */}<i className="fa fa-map-marker" aria-hidden="true" /></span></span></span></span></p>
-            <p id="u25490-5">New York. Themeforest 10 Str.</p>
-          </div>
-          <div className="rounded-corners clearfix grpelem shared_content" id="u25523-7" data-content-guid="u25523-7_content">{/* content */}
-            <p id="u25523-3"><span id="u25523">​</span><span className="actAsInlineDiv normal_text" id="u25571">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u25564">{/* group */}<span className="actAsDiv rounded-corners clearfix grpelem" id="u25566">{/* group */}<span className="actAsDiv grpelem" id="u25565">{/* custom html */}<i className="fa fa-phone" aria-hidden="true" /></span></span></span></span></p>
-            <p id="u25523-5">+344 058574 747489</p>
-          </div>
-          <div className="rounded-corners clearfix grpelem shared_content" id="u25540-7" data-content-guid="u25540-7_content">{/* content */}
-            <p id="u25540-3"><span id="u25540">​</span><span className="actAsInlineDiv normal_text" id="u25603">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u25596">{/* group */}<span className="actAsDiv rounded-corners clearfix grpelem" id="u25598">{/* group */}<span className="actAsDiv grpelem" id="u25597">{/* custom html */}<i className="fa fa-envelope" aria-hidden="true" /></span></span></span></span></p>
-            <p id="u25540-5">office@hallesonlaw.com</p>
-          </div>
+        <p id="u25490-5">880 Franklin St. #304, San Francisco</p>
+        </div>
+        <div className="rounded-corners clearfix grpelem shared_content" id="u25523-7" data-content-guid="u25523-7_content">{/* content */}
+        <p id="u25523-3"><span id="u25523">​</span><span className="actAsInlineDiv normal_text" id="u25571">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u25564">{/* group */}<span className="actAsDiv rounded-corners clearfix grpelem" id="u25566">{/* group */}<span className="actAsDiv grpelem" id="u25565">{/* custom html */}<i className="fa fa-phone" aria-hidden="true" /></span></span></span></span></p>
+        <p id="u25523-5">+1.415.690.1100</p>
+        </div>
+        <div className="rounded-corners clearfix grpelem shared_content" id="u25540-7" data-content-guid="u25540-7_content">{/* content */}
+        <p id="u25540-3"><span id="u25540">​</span><span className="actAsInlineDiv normal_text" id="u25603">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u25596">{/* group */}<span className="actAsDiv rounded-corners clearfix grpelem" id="u25598">{/* group */}<span className="actAsDiv grpelem" id="u25597">{/* custom html */}<i className="fa fa-envelope" aria-hidden="true" /></span></span></span></span></p>
+        <p id="u25540-5">office@apilaw.com</p>
+        </div>
         </div>
       </div>
     </div>

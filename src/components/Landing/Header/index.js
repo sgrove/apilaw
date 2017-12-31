@@ -21,7 +21,7 @@ class Header extends React.Component {
           className="browser_width shared_content"
           id="u94-bw"
           data-content-guid="u94-bw_content">
-          <div id="u94">{/* simple frame */}</div>
+          <div id="u94" style={{backgroundColor: "white"}}>{/* simple frame */}</div>
         </div>
         <div className="browser_width shared_content" id="u5472-bw" data-content-guid="u5472-bw_content" style={{height: 0}}>
           <div id="u5472">{/* simple frame */}</div>

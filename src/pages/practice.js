@@ -13,7 +13,7 @@ class LandingIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
 
     return (
-        <div>
+        <div id="page">
         <Helmet title={siteTitle}>
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
         <meta name="generator" content="2015.2.0.352"/>

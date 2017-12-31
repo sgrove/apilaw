@@ -48,7 +48,7 @@ class Template extends React.Component {
       )
     }
     return (
-        <div style={{}}>
+        <div style={{}} className="clearfix" id="">
         {children()}
       </div>
     )
