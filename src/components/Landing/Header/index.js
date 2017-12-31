@@ -132,7 +132,7 @@ class Header extends React.Component {
                   (pageName == 'journal' ? ' MuseMenuActive' : '')
               }
               id="u2108"
-              to="/journal">
+              to="/blog">
               {/* horizontal box */}
               <div
                 className="MenuItemLabel NoWrap clearfix grpelem"

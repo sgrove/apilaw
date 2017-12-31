@@ -4,7 +4,7 @@ import React from 'react'
 // import 'typeface-montserrat'
 // import 'typeface-merriweather'
 
-import profilePic from './profile-pic.jpg'
+import profilePic from '../images/profile-pic.jpg';
 
 class Bio extends React.Component {
   render() {
@@ -16,16 +16,15 @@ class Bio extends React.Component {
         >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Yan Li`}
           style={{
           }}
         />
         <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
-          </a>
+        <strong>Yan Li</strong>, an immigration lawyer who lives in San Francisco and works to help people build their dreams in the USA.{' '}
+        <a href="https://twitter.com/yanli_tlo">
+        You should follow her on Twitter
+      </a>
         </p>
       </div>
     )
