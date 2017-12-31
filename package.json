@@ -23,6 +23,7 @@
     "gatsby-transformer-remark": "^1.7.25",
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
+    "react-load-script": "0.0.6",
     "react-responsive-grid": "^0.3.4",
     "react-reveal": "^0.7.3",
     "react-router": "^4.2.0",

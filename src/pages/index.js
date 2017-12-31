@@ -7,8 +7,23 @@ import {Switch, Route} from 'react-router-dom';
 import globalCSS from '../css/site_global.css';
 import indexCSS from '../css/index.css';
 import masterCSS from '../css/master_b-master.css';
+import Script from 'react-load-script';
+
 
 class LandingIndex extends React.Component {
+  handleScriptLoad() {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+    window.netlifyIdentity.init();
+  }
+
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title');
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
@@ -29,17 +44,10 @@ class LandingIndex extends React.Component {
         <Route exact path="/" render={() => <Home/>} />
         <Route exact path="/practice" render={() => <h1>You found me!</h1>} />
         </Switch>
-        <script >
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              })
-            }
-          })
-        }
-      </script>
+        <Script
+          url="https://identity.netlify.com/v1/netlify-identity-widget.js"
+          onLoad={this.handleScriptLoad.bind(this)}
+        />
         </div>
     );
   }
