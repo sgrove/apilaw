@@ -23,11 +23,23 @@ class LandingIndex extends React.Component {
         <style id="master-styles" type="text/css">{`${masterCSS}`}</style>
         <style id="pagesheet" type="text/css">{`${indexCSS}`}</style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Helmet>
         <Switch>
         <Route exact path="/" render={() => <Home/>} />
         <Route exact path="/practice" render={() => <h1>You found me!</h1>} />
         </Switch>
+        <script >
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              })
+            }
+          })
+        }
+      </script>
         </div>
     );
   }

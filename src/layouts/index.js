@@ -49,9 +49,6 @@ class Template extends React.Component {
     }
     return (
         <div style={{}} className="clearfix" id="page" style={{minHeight: "500px"}}>
-        <Helmet>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        </Helmet>
         {children()}
       </div>
     )
