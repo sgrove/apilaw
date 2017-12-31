@@ -15,11 +15,12 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <div className="position_content" id="page_position_content">
+        <div className="position_content" id="page_position_content"
+      style={{width:"1200px"}}>
         <Header page="journal"
       heroColor={"red"}
       scrollableHeader={false}
-      
+      noHero={true}
         />
         <div className="clearfix colelem shared_content" id="pu25367" data-content-guid="pu25367_content">{/* group */}
         <div className="browser_width grpelem shared_content" id="u25367-bw" data-content-guid="u25367-bw_content" style={{height: 313}}>
@@ -38,7 +39,7 @@ class BlogPostTemplate extends React.Component {
         </div>
         </div>
         </div>
-        <div style={{marginBottom: "700px"}} />
+        <div style={{marginBottom: "400px"}} />
         <div style={{zIndex: "999"}}>
         <h1>{post.frontmatter.title}</h1>
         <p
