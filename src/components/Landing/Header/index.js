@@ -9,6 +9,8 @@ class Header extends React.Component {
           ? this.props.pageName.toLowerCase()
           : '';
     const scrollableHeader = this.props.scrollableHeader;
+    const heroImage = this.props.heroImage;
+    const heroColor = this.props.heroColor;
     return (
       <div className="clearfix colelem" style={
              {
@@ -21,7 +23,14 @@ class Header extends React.Component {
           className="browser_width shared_content"
           id="u94-bw"
           data-content-guid="u94-bw_content">
-          <div id="u94" style={{backgroundColor: "white"}}>{/* simple frame */}</div>
+          <div id="u94"><div className="museBGSize" style={
+                               {
+                                 background: (heroImage ? ('url(' + heroImage + ') no-repeat center bottom') :
+                                              heroColor ? heroColor : ""),
+                                 position: "fixed",
+                                 width: "100%"
+                               }
+                             } id="u105"></div></div>
         </div>
         <div className="browser_width shared_content" id="u5472-bw" data-content-guid="u5472-bw_content" style={{height: 0}}>
           <div id="u5472">{/* simple frame */}</div>
@@ -72,10 +81,19 @@ class Header extends React.Component {
                 'nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem' +
                   (pageName == 'practice' ? ' MuseMenuActive' : '')
               }
-              to="/practice">
+              to="/practice"
+              >
               <div
                 className="MenuItemLabel NoWrap clearfix grpelem"
-                id="u2046-4">
+                id="u2046-4"
+                style={(pageName == 'practice' ? {
+                  color: "#BFA16A",
+                  visibility: "inherit",
+                  fontFamily: "raleway, sans-serif",
+                  fontWeight: "400",
+                  fontStyle: "normal"
+                } : {})}
+                >
                 <p
                   className="shared_content"
                   data-content-guid="u2046-4_0_content">

@@ -4,6 +4,8 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet';
 import Header from '../Header';
 import Footer from '../Footer';
+import headerBg from '../../../images/liberty.jpg';
+import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 
 class Home extends React.Component {
   render() {
@@ -12,7 +14,7 @@ class Home extends React.Component {
           <div className="breakpoint active" id="bp_infinity" data-min-width={1201}>{/* responsive breakpoint node */}
             <div className="clearfix" id="page">{/* column */}
         <div className="position_content" id="page_position_content">
-        <Header pageName="home" scrollableHeader={true} />
+        <Header pageName="home" scrollableHeader={true} heroImage={headerBg}/>
         <div className="clearfix colelem shared_content" id="u304" data-content-guid="u304_content">{/* group */}
         <div className="headlogo grpelem" id="u297">{/* custom html */}
         <i className="fa fa-balance-scale" aria-hidden="true" />
@@ -32,13 +34,13 @@ class Home extends React.Component {
         <div className="year clearfix colelem shared_content" id="u307-4" data-content-guid="u307-4_content">{/* content */}
         <p>Since 1975</p>
         </div>
-        <div className="clearfix colelem shared_content" id="pu447" data-content-guid="pu447_content" style={{marginTop: "-15px"}}>{/* group */}
+        <div className="clearfix colelem shared_content" id="pu447" data-content-guid="pu447_content" style={{marginTop: "-22px"}}>{/* group */}
         <div className="browser_width grpelem shared_content" id="u447-bw" data-content-guid="u447-bw_content">
         <div id="u447">{/* simple frame */}</div>
         </div>
         <div className="browser_width grpelem" id="u183-bw">
         <div className="museBGSize rgba-background" id="u183">{/* group */}
-        <div className="clearfix" id="u183_align_to_page">
+        <div className="clearfix" id="u183_align_to_page" style={{width: "900px"}}>
         <div className="clearfix grpelem shared_content" id="u372" data-content-guid="u372_content">{/* group */}
         <div className="rounded-corners clearfix grpelem" id="u328-7">{/* content */}
         <p id="u328-2">CORPORATE &amp; COMMERCIAL LAW</p>
@@ -61,14 +63,6 @@ class Home extends React.Component {
         <p id="u643-6"><span id="u643-4">​</span><span className="actAsInlineDiv normal_text" id="u644">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u645">{/* group */}<a className="nonblock nontext actAsDiv transition clearfix grpelem" id="u647-4" href="features.html">{/* content */}<span className="actAsPara">Learn More &gt;</span></a><a className="nonblock nontext actAsDiv grpelem" id="u646" href="features.html">{/* simple frame */}</a></span></span></p>
         </div>
         <div className="grpelem" id="u649" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7071,M12=0.7071,M21=-0.7071,M22=0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx={-3} data-mu-ie-matrix-dy={-3}>{/* simple frame */}</div>
-        </div>
-        <div className="clearfix grpelem shared_content" id="u666" data-content-guid="u666_content">{/* group */}
-        <div className="rounded-corners clearfix grpelem" id="u667-8">{/* content */}
-        <p id="u667-2">LIQUIDATION &amp; INSOLVENCY</p>
-        <p id="u667-3">&nbsp;</p>
-        <p id="u667-6"><span id="u667-4">​</span><span className="actAsInlineDiv normal_text" id="u668">{/* content */}<span className="actAsDiv clearfix excludeFromNormalFlow" id="u669">{/* group */}<a className="nonblock nontext actAsDiv transition clearfix grpelem" id="u671-4" href="features.html">{/* content */}<span className="actAsPara">Learn More &gt;</span></a><a className="nonblock nontext actAsDiv grpelem" id="u670" href="features.html">{/* simple frame */}</a></span></span><span /></p>
-        </div>
-        <div className="grpelem" id="u673" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7071,M12=0.7071,M21=-0.7071,M22=0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx={-3} data-mu-ie-matrix-dy={-3}>{/* simple frame */}</div>
         </div>
         </div>
         </div>
@@ -132,12 +126,14 @@ class Home extends React.Component {
         </div>
         <div className="browser_width grpelem" id="u802-bw">
         <div className="museBGSize" id="u802">{/* group */}
+        <Fade duration={500} up>
         <div className="clearfix" id="u802_align_to_page">
         <div className="experience clearfix grpelem" id="u821-6">{/* content */}
         <p id="u821-2">35 Years of Expirience</p>
         <p id="u821-4">Vestibulum ultrices id ipsum in lacinia. Nunc diam nibh, tempus sed nunc et, ultrices facilisis velit. Morbi cursus ipsum a arcu ultricies tempor.</p>
         </div>
         </div>
+        </Fade>
         </div>
         </div>
         </div>
@@ -903,7 +899,7 @@ class Home extends React.Component {
         <span className="headtitle clearfix colelem placeholder" data-placeholder-for="u124-4_content">{/* placeholder node */}</span>
         <span className="clearfix colelem placeholder" data-placeholder-for="u325_content">{/* placeholder node */}</span>
         <span className="year clearfix colelem placeholder" data-placeholder-for="u307-4_content">{/* placeholder node */}</span>
-        <div className="clearfix colelem temp_no_id" data-orig-id="pu447">{/* group */}
+        <div className="clearfix colelem temp_no_id" data-orig-id="pu447" style={{marginTop: "-22px"}}>{/* group */}
         <span className="browser_width grpelem placeholder" data-placeholder-for="u447-bw_content">{/* placeholder node */}</span>
         <div className="browser_width grpelem temp_no_id" data-orig-id="u183-bw">
         <div className="museBGSize rgba-background temp_no_id" data-orig-id="u183">{/* group */}

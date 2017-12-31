@@ -24,9 +24,8 @@
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
     "react-responsive-grid": "^0.3.4",
-    "react-router": "^4.2.0",
-    "typeface-merriweather": "0.0.43",
-    "typeface-montserrat": "0.0.43"
+    "react-reveal": "^0.7.3",
+    "react-router": "^4.2.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",

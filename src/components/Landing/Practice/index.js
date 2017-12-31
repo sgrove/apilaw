@@ -4,18 +4,20 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet';
 import Header from '../Header';
 import Footer from '../Footer';
+import headerBg from '../../../images/liberty.jpg';
+import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 
-class Home extends React.Component {
+class Practice extends React.Component {
   render() {
     return (
         <div className="position_content" id="page_position_content">
-        <Header pageName="practice" />
+        <Header pageName="practice" heroColor="#FFF" />
         <div className="clearfix colelem shared_content" id="pu46715" data-content-guid="pu46715_content">{/* group */}
         <div className="browser_width grpelem shared_content" id="u46715-bw" data-content-guid="u46715-bw_content" style={{height: 317}}>
         <div id="u46715">{/* simple frame */}</div>
         </div>
         <div className="browser_width grpelem shared_content" id="u46716-bw" data-content-guid="u46716-bw_content" style={{height: 317}}>
-        <div className="museBGSize" id="u46716">{/* simple frame */}</div>
+        <div className="museBGSize" id="u46716" style={{background: ('url(' + headerBg + ') no-repeat center bottom')}}>{/* simple frame */}</div>
         </div>
         <div className="clearfix grpelem" id="u46717-4">{/* content */}
         <p>Services</p>
@@ -206,22 +208,30 @@ class Home extends React.Component {
         <div className="browser_width grpelem shared_content" id="u46723-bw" data-content-guid="u46723-bw_content" style={{height: 344}}>
         <div className="museBGSize scroll_effect" id="u46723" style={{backgroundAttachment: 'scroll', backgroundPosition: '0px -2087.38px'}}>{/* group */}
         <div className="clearfix" id="u46723_align_to_page">
-        <div className="rgba-background chart1 transition clearfix grpelem shared_content wow fadeInUp" id="u46724-6" data-content-guid="u46724-6_content" data-wow-duration="1s" data-wow-delay="0.2s" style={{visibility: 'hidden', animationDuration: '1s', animationDelay: '0.2s', animationName: 'none'}}>{/* content */}
+        <Fade up duration={500}>
+        <div className="rgba-background chart1 transition clearfix grpelem shared_content wow fadeInUp" id="u46724-6" data-content-guid="u46724-6_content" data-wow-duration="1s" data-wow-delay="0.2s" style={{animationDuration: '1s', animationDelay: '0.2s', animationName: 'none'}}>{/* content */}
         <p id="u46724-2">1200</p>
         <p id="u46724-4">CASES</p>
         </div>
-        <div className="rgba-background chart2 transition clearfix grpelem shared_content wow fadeInUp" id="u46726-6" data-content-guid="u46726-6_content" data-wow-duration="1s" data-wow-delay="0.4s" style={{visibility: 'hidden', animationDuration: '1s', animationDelay: '0.4s', animationName: 'none'}}>{/* content */}
+        </Fade>
+        <Fade up duration={500}>
+        <div className="rgba-background chart2 transition clearfix grpelem shared_content wow fadeInUp" id="u46726-6" data-content-guid="u46726-6_content" data-wow-duration="1s" data-wow-delay="0.4s" style={{animationDuration: '1s', animationDelay: '0.4s', animationName: 'none'}}>{/* content */}
         <p id="u46726-2">678</p>
         <p id="u46726-4">CASE STUDIES</p>
         </div>
-        <div className="rgba-background chart3 transition clearfix grpelem shared_content wow fadeInUp" id="u46725-6" data-content-guid="u46725-6_content" data-wow-duration="1s" data-wow-delay="0.6s" style={{visibility: 'hidden', animationDuration: '1s', animationDelay: '0.6s', animationName: 'none'}}>{/* content */}
+        </Fade>
+        <Fade up duration={500}>
+        <div className="rgba-background chart3 transition clearfix grpelem shared_content wow fadeInUp" id="u46725-6" data-content-guid="u46725-6_content" data-wow-duration="1s" data-wow-delay="0.6s" style={{animationDuration: '1s', animationDelay: '0.6s', animationName: 'none'}}>{/* content */}
         <p id="u46725-2">790</p>
         <p id="u46725-4">CLIENTS</p>
         </div>
-        <div className="rgba-background chart4 transition clearfix grpelem shared_content wow fadeInUp" id="u46727-6" data-content-guid="u46727-6_content" data-wow-duration="1s" data-wow-delay="0.8s" style={{visibility: 'hidden', animationDuration: '1s', animationDelay: '0.8s', animationName: 'none'}}>{/* content */}
+        </Fade>
+        <Fade up duration={500}>
+        <div className="rgba-background chart4 transition clearfix grpelem shared_content wow fadeInUp" id="u46727-6" data-content-guid="u46727-6_content" data-wow-duration="1s" data-wow-delay="0.8s" style={{animationDuration: '1s', animationDelay: '0.8s', animationName: 'none'}}>{/* content */}
         <p id="u46727-2">3456</p>
         <p id="u46727-4">SOLVED CASES</p>
         </div>
+        </Fade>
         </div>
         </div>
         </div>
@@ -259,10 +269,12 @@ class Home extends React.Component {
         <div className="museBGSize" id="u46827">{/* column */}
         <div className="clearfix" id="u46827_align_to_page">
         <div className="position_content" id="u46827_position_content">
-        <div className="experience clearfix colelem shared_content wow fadeInUp" id="u46828-6" data-content-guid="u46828-6_content" style={{visibility: 'hidden', animationName: 'none'}}>{/* content */}
+        <Fade duration={500}>
+        <div className="experience clearfix colelem shared_content wow fadeInUp" id="u46828-6" data-content-guid="u46828-6_content" style={{animationName: 'none'}}>{/* content */}
         <p id="u46828-2">&nbsp;In Justice We Trust</p>
         <p id="u46828-4">&nbsp;Vestibulum ultrices id ipsum in lacinia. Nunc diam nibh, tempus sed nunc et, ultrices facilisis velit. Morbi cursus ipsum a arcu ultricies tempor.</p>
         </div>
+        </Fade>
         <div className="colelem shared_content" id="u46829" data-content-guid="u46829_content">{/* custom html */}
       </div>
         </div>
@@ -277,4 +289,4 @@ class Home extends React.Component {
   };
 }
 
-export default Home
+export default Practice
