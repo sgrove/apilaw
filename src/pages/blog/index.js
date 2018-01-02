@@ -95,7 +95,14 @@ const postPreview = (node, idx) => {
               </span>
             </p>
 
-            <p id="u17132-7" dangerouslySetInnerHTML={{__html: node.excerpt}} />
+            {node.frontmatter.description ? (
+              <p id="u17132-7">{node.frontmatter.description}</p>
+            ) : (
+              <p
+                id="u17132-7"
+                dangerouslySetInnerHTML={{__html: node.excerpt}}
+              />
+            )}
           </div>
           <div className="museBGSize grpelem" id="u17162" style={imgStyle}>
             {/* simple frame */}
@@ -187,6 +194,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            description
             heroImage
           }
         }
