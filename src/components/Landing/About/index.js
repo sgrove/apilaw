@@ -44,7 +44,7 @@ class About extends React.Component {
 
           <div className="clearfix grpelem" id="u16381-4">
             {/* content */}
-            <p>Our Team</p>
+            <p>About Us</p>
           </div>
           <div
             className="whoweare clearfix grpelem shared_content wow fadeInUp"
@@ -52,7 +52,7 @@ class About extends React.Component {
             data-content-guid="u16302-4_content"
             style={{visibility: 'visible'}}>
             {/* content */}
-            <h2>-About Us-</h2>
+            <h2>-Who We Are-</h2>
           </div>
         </div>
         <div className="clearfix colelem" id="pu17083">
@@ -191,6 +191,15 @@ class About extends React.Component {
                     id="u17470"
                     style={bioStyle}>
                     {/* column */}
+                    <p
+                      style={{
+                        lineHeight: '36px',
+                        fontFamily: 'playfair-display, serif',
+                        fontSize: '24px',
+                      }}>
+                      The Founder
+                    </p>
+                    <br />
                     Born in Shanghai, China, Yan emigrated to Japan when she was
                     8 years old. After graduating high school in Hiroshima,
                     Japan, Yan came to the U.S. as an international student. Her

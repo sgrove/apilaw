@@ -33,7 +33,7 @@ class Practice extends React.Component {
               className="museBGSize"
               id="u46716"
               style={{
-                background: 'url(' + headerBg + ') no-repeat center bottom',
+                background: 'black',
               }}>
               {/* simple frame */}
             </div>
@@ -48,7 +48,7 @@ class Practice extends React.Component {
             data-content-guid="u46718-4_content"
             style={{visibility: 'visible'}}>
             {/* content */}
-            <h2>-Our Practice-</h2>
+            <h2>-What We Do-</h2>
           </div>
         </div>
         <div
@@ -66,38 +66,40 @@ class Practice extends React.Component {
               </span>
             </span>
           </p>
-          <p id="u46719-8">
+          <p id="u46719-8" style={{textAlign: 'left'}}>
             <span id="u46719-6">
               There are more than 20 different visa categories as well as green
               card categories. Each category has its own requirements, benefits
               and restrictions. We will help you find the one that is most
               suitable to your situation, and guide you through the application
-              process. Our services include the followings:
+              process.
               <br />
+              <br />
+              Our services include the followings:
               <br />
               <ul>
                 <li>
-                  Providing consultation on your options and building
+                  - Providing consultation on your options and building
                   application strategies.
                 </li>
                 <li>
-                  Gathering and drafting necessary application forms and
+                  - Gathering and drafting necessary application forms and
                   supporting documents.
                 </li>
                 <li>
-                  Submitting your application to the government and be the point
-                  of contact for your case.
+                  - Submitting your application to the government and be the
+                  point of contact for your case.
                 </li>
                 <li>
-                  Keeping track of your case progress and communicating with the
-                  government to facilitate the adjudication of your case.
+                  - Keeping track of your case progress and communicating with
+                  the government to facilitate the adjudication of your case.
                 </li>
                 <li>
-                  Providing consultation before your interview with the
+                  - Providing consultation before your interview with the
                   government, if an interview is required.
                 </li>
                 <li>
-                  Answering any questions or concerns you may have throughout
+                  - Answering any questions or concerns you may have throughout
                   the application process.{' '}
                 </li>
               </ul>
@@ -518,16 +520,7 @@ class Practice extends React.Component {
                           {/* content */}
                           <p id="u46787-2">
                             Various application categories through company
-                            sponsorship or self-sponsorship:
-                            <ul style={{textAlign: 'left'}}>
-                              <li>Extraordinary Ability (EB1-A)</li>
-                              <li>
-                                Outstanding professors and researchers (EB1-B)
-                              </li>
-                              <li>
-                                Multinational manager or executive (EB1-C)
-                              </li>
-                            </ul>
+                            sponsorship or self-sponsorship
                           </p>
                         </div>
                         <a

@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import Header from '../Header'
 import Footer from '../Footer'
 import headerBg from '../../../images/liberty.jpg'
+import sanFranciscoImg from '../../../images/san_francisco.jpg'
+import fireworksImg from '../../../../static/img/fireworks.jpg'
 import {Fade, Flip, Rotate, Zoom} from 'react-reveal'
 
 const learnMoreStyle = {
@@ -26,7 +28,7 @@ const readMore = (
         {/* content */}
         <span className="actAsPara" id="u881-2">
           <a
-            href="/services"
+            href="/practice"
             style={{
               textDecoration: 'none',
               color: 'white',
@@ -362,7 +364,14 @@ class Home extends React.Component {
                       <div
                         className="historyimage museBGSize grpelem shared_content"
                         id="u718"
-                        data-content-guid="u718_content">
+                        data-content-guid="u718_content"
+                        style={{
+                          background:
+                            'transparent url(' +
+                            sanFranciscoImg +
+                            ') no-repeat center center',
+                          backgroundSize: '600px 300px',
+                        }}>
                         {/* simple frame */}
                       </div>
                     </div>
@@ -734,7 +743,14 @@ class Home extends React.Component {
                               {/* column */}
                               <div
                                 className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1705">
+                                id="u1705"
+                                style={{
+                                  background:
+                                    'transparent url(' +
+                                    fireworksImg +
+                                    ') no-repeat center center',
+                                  backgroundSize: '380px 220px',
+                                }}>
                                 {/* group */}
                                 <div className="clearfix grpelem" id="u1706-6">
                                   {/* content */}
@@ -745,15 +761,25 @@ class Home extends React.Component {
                               <div className="clearfix colelem" id="u1707-9">
                                 {/* content */}
                                 <p id="u1707-2">
-                                  <span id="u1707">A new year, a new firm</span>
+                                  <span id="u1707">
+                                    <a
+                                      href="/blog/2018-01-01-en-welcome-to-api-law-office/"
+                                      style={{textDecoration: 'none'}}>
+                                      Happy New Year, and welcome to API Law
+                                      Office!
+                                    </a>
+                                  </span>
                                 </p>
                                 <p id="u1707-4">
                                   <span id="u1707-3">Posted by Yan Li</span>
                                 </p>
                                 <p id="u1707-5">&nbsp;</p>
                                 <p id="u1707-7">
-                                  2018 marks the founding of API Law, a new
-                                  family and business immigration firm
+                                  Today, we launched this brand new immigration
+                                  law firm, with the passion to deliver quality
+                                  legal services to all companies and
+                                  individuals who strive for their success and
+                                  life in the U.S...
                                 </p>
                               </div>
                             </div>

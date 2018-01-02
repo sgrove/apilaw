@@ -14,7 +14,7 @@ class LandingIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle}>
+        <Helmet title={'About Us'}>
           <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
           <meta name="generator" content="2015.2.0.352" />
           <meta
