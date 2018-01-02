@@ -658,7 +658,7 @@ class Home extends React.Component {
                             <span id="u1052-4">CITIZENSHIP</span>
                           </p>
                           <p id="u1052-7">
-                            The last stop of the immigration journey.
+                            The last stop on the immigration journey.
                           </p>
                           <p id="u1052-7" />
                           {readMore}
