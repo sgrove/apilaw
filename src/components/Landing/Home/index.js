@@ -629,7 +629,8 @@ class Home extends React.Component {
                             <span id="u984-4">L1 VISAS</span>
                           </p>
                           <p id="u984-7">
-                            Transfer of an employee of a foreign group company.{' '}
+                            Transfer of an employee from a foreign group
+                            company.{' '}
                           </p>
                           {readMore}
                         </div>
