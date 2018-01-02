@@ -10,7 +10,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="position_content" id="page_position_content">
-        <Header pageName="attorneys" />
+        <Header pageName="about" heroColor="black" />
         <div
           className="clearfix colelem shared_content"
           id="pu16350"
@@ -23,15 +23,7 @@ class About extends React.Component {
             style={{height: 313}}>
             <div id="u16350">{/* simple frame */}</div>
           </div>
-          <div
-            className="browser_width grpelem shared_content"
-            id="u16327-bw"
-            data-content-guid="u16327-bw_content"
-            style={{height: 313}}>
-            <div className="museBGSize" id="u16327">
-              {/* simple frame */}
-            </div>
-          </div>
+
           <div className="clearfix grpelem" id="u16381-4">
             {/* content */}
             <p>Our Team</p>
