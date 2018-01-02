@@ -208,7 +208,7 @@ class Header extends React.Component {
                           <p
                             className="shared_content"
                             data-content-guid="u35043-4_0_content">
-                            Journal
+                            News
                           </p>
                         </div>
                       </a>
