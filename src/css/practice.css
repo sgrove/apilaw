@@ -1357,7 +1357,7 @@ body {
     z-index: 56;
     width: 558px;
     height: 249px;
-    background-image: url('../images/practice1.jpg?crc=334988368');
+    background: #888;
   }
   #u48586 {
     z-index: 57;
@@ -1417,7 +1417,7 @@ body {
     z-index: 75;
     width: 558px;
     height: 249px;
-    background-image: url('../images/practice2.jpg?crc=334988368');
+    background: #888;
   }
   #u46742 {
     z-index: 80;
@@ -1494,7 +1494,7 @@ body {
     z-index: 94;
     width: 558px;
     height: 249px;
-    background-image: url('../images/practice3.jpg?crc=334988368');
+    background: #888;
     margin-right: -10000px;
   }
   #u46753-7 {
@@ -1550,7 +1550,7 @@ body {
     z-index: 116;
     width: 558px;
     height: 249px;
-    background-image: url('../images/practice4.jpg?crc=334988368');
+    background: #888;
   }
   #u46760-7 {
     z-index: 121;
@@ -1610,7 +1610,7 @@ body {
     z-index: 138;
     width: 558px;
     height: 249px;
-    background-image: url('../images/practice5.jpg?crc=334988368');
+    background: #888;
   }
   #u46769-7 {
     z-index: 147;
@@ -1670,7 +1670,7 @@ body {
     z-index: 160;
     width: 558px;
     height: 251px;
-    background-image: url('../images/practice6.jpg?crc=334988368');
+    background: #888;
   }
   #u46780-7 {
     z-index: 169;
@@ -1730,7 +1730,7 @@ body {
     z-index: 182;
     width: 558px;
     height: 251px;
-    background-image: url('../images/practice7.jpg?crc=334988368');
+    background: #888;
     margin-right: -10000px;
   }
   #u46793-7 {
@@ -1796,7 +1796,7 @@ body {
     z-index: 204;
     width: 558px;
     height: 251px;
-    background-image: url('../images/practice8.jpg?crc=334988368');
+    background: #888;
   }
   #u46802-7 {
     z-index: 213;
@@ -2005,17 +2005,17 @@ body {
   #u46821-17 {
     z-index: 248;
     width: 276px;
-    background-image: url('../images/u46821-17.png?crc=3981533488');
+    background: #888;
     left: 885px;
   }
   #u46821-17:hover {
-    background-image: url('../images/u46821-17-r.png?crc=238622133');
+    background: #888;
   }
   #u46821-17:active {
-    background-image: url('../images/u46821-17-m.png?crc=238622133');
+    background: #888;
   }
   #widgetu46809.frm-sub-st #u46821-17 {
-    background-image: url('../images/u46821-17-fs.png?crc=392315850');
+    background: #888;
   }
   #widgetu46822 {
     z-index: 265;
@@ -2535,7 +2535,7 @@ body {
     z-index: 56;
     width: 460px;
     height: 249px;
-    background-image: url('../images/practice1.jpg?crc=334988368');
+    background: gray;
   }
   #u48586 {
     z-index: 57;
@@ -2805,7 +2805,7 @@ body {
     z-index: 138;
     width: 459px;
     height: 249px;
-    background-image: url('../images/practice5.jpg?crc=334988368');
+    background: #888;
   }
   #u46769-7 {
     z-index: 147;
@@ -2858,7 +2858,7 @@ body {
     z-index: 160;
     width: 455px;
     height: 251px;
-    background-image: url('../images/practice6.jpg?crc=334988368');
+    background: #888;
   }
   #u46780-7 {
     z-index: 169;
@@ -2922,7 +2922,7 @@ body {
     z-index: 182;
     width: 459px;
     height: 251px;
-    background-image: url('../images/practice7.jpg?crc=334988368');
+    background: #888;
     margin-right: -10000px;
   }
   #u46793-7 {
@@ -2988,7 +2988,7 @@ body {
     z-index: 204;
     width: 455px;
     height: 251px;
-    background-image: url('../images/practice8.jpg?crc=334988368');
+    background: #888;
   }
   #u46802-7 {
     z-index: 213;
@@ -3197,17 +3197,17 @@ body {
   #u46821-17 {
     z-index: 248;
     width: 226px;
-    background-image: url('../images/u46821-172.png?crc=3912416321');
+    background: #888;
     left: 735px;
   }
   #u46821-17:hover {
-    background-image: url('../images/u46821-17-r2.png?crc=189066918');
+    background: #888;
   }
   #u46821-17:active {
-    background-image: url('../images/u46821-17-m2.png?crc=189066918');
+    background: #888;
   }
   #widgetu46809.frm-sub-st #u46821-17 {
-    background-image: url('../images/u46821-17-fs2.png?crc=267839895');
+    background: #888;
   }
   #widgetu46822 {
     z-index: 265;
@@ -3728,7 +3728,7 @@ body {
     z-index: 56;
     width: 360px;
     height: 200px;
-    background-image: url('../images/practice1-u46736-fr.jpg?crc=392816872');
+    background: gray;
   }
   #u48586 {
     z-index: 57;
@@ -4179,7 +4179,7 @@ body {
     z-index: 204;
     width: 357px;
     height: 200px;
-    background-image: url('../images/practice8-u46799-fr.jpg?crc=392816872');
+    background: #888;
   }
   #u46802-7 {
     z-index: 213;
@@ -4936,7 +4936,7 @@ body {
     z-index: 56;
     width: 311px;
     height: 180px;
-    background-image: url('../images/practice1-u46736-fr2.jpg?crc=3941038585');
+    background: gray;
   }
   #u48586 {
     z-index: 57;
@@ -5397,7 +5397,7 @@ body {
     z-index: 204;
     width: 307px;
     height: 180px;
-    background-image: url('../images/practice8-u46799-fr2.jpg?crc=3941038585');
+    background: #888;
   }
   #u46802-7 {
     z-index: 213;
@@ -6600,7 +6600,7 @@ body {
     z-index: 204;
     width: 548px;
     height: 260px;
-    background-image: url('../images/practice8.jpg?crc=334988368');
+    background: #888;
   }
   #u46802-7 {
     z-index: 213;
@@ -7921,7 +7921,7 @@ body {
     z-index: 204;
     width: 548px;
     height: 260px;
-    background-image: url('../images/practice8.jpg?crc=334988368');
+    background: #888;
     margin-left: 50%;
     left: -273.5px;
   }
@@ -9270,7 +9270,7 @@ body {
     z-index: 200;
     width: 382px;
     height: 249px;
-    background-image: url('../images/practice8.jpg?crc=334988368');
+    background: #888;
     margin-left: 50%;
     left: -191.5px;
   }
@@ -10144,7 +10144,7 @@ body {
     z-index: 52;
     width: 286px;
     height: 170px;
-    background-image: url('../images/practice1-u46736-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -143.5px;
   }
@@ -10230,7 +10230,7 @@ body {
     z-index: 90;
     width: 287px;
     height: 170px;
-    background-image: url('../images/practice3-u46751-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-right: -10000px;
     margin-left: 50%;
     left: -145px;
@@ -10297,7 +10297,7 @@ body {
     z-index: 134;
     width: 285px;
     height: 170px;
-    background-image: url('../images/practice5-u46775-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -143px;
   }
@@ -10362,7 +10362,7 @@ body {
     z-index: 178;
     width: 286px;
     height: 170px;
-    background-image: url('../images/practice7-u46792-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-right: -10000px;
     margin-left: 50%;
     left: -143.5px;
@@ -10429,7 +10429,7 @@ body {
     z-index: 71;
     width: 286px;
     height: 170px;
-    background-image: url('../images/practice2-u46739-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -144.5px;
   }
@@ -10505,7 +10505,7 @@ body {
     z-index: 112;
     width: 286px;
     height: 170px;
-    background-image: url('../images/practice4-u46767-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -143.5px;
   }
@@ -10571,7 +10571,7 @@ body {
     z-index: 156;
     width: 287px;
     height: 170px;
-    background-image: url('../images/practice6-u46785-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -144px;
   }
@@ -10649,7 +10649,7 @@ body {
     z-index: 200;
     width: 286px;
     height: 170px;
-    background-image: url('../images/practice8-u46799-fr3.jpg?crc=3891146977');
+    background: #888;
     margin-left: 50%;
     left: -143.5px;
   }

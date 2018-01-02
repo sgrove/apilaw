@@ -68,11 +68,11 @@ class Practice extends React.Component {
           </p>
           <p id="u46719-8">
             <span id="u46719-6">
-              There are more than ___ types of visas and __ categories of green
-              card application. Each one has its own requirements, benefits and
-              restrictions. We will help you find the one that is most suitable
-              to your situation, and guide you through the application process.
-              Our services include the followings:
+              There are more than 20 different visa categories as well as green
+              card categories. Each category has its own requirements, benefits
+              and restrictions. We will help you find the one that is most
+              suitable to your situation, and guide you through the application
+              process. Our services include the followings:
               <br />
               <br />
               <ul>
