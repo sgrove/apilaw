@@ -205,7 +205,15 @@ class About extends React.Component {
                       }}>
                       The Founder
                     </p>
-                    <br />
+                    <p id="u17183-5">
+                      <span id="u17183-3">​</span>
+                      <span className="actAsInlineDiv normal_text" id="u17184">
+                        <span
+                          className="actAsDiv excludeFromNormalFlow"
+                          id="u17185"
+                        />
+                      </span>
+                    </p>
                     Born in Shanghai, China, Yan emigrated to Japan when she was
                     8 years old. After graduating high school in Hiroshima,
                     Japan, Yan came to the U.S. as an international student. Her
@@ -298,10 +306,12 @@ class About extends React.Component {
                         </p>
                       </div>
                     </div>
-                    <div className="clearfix colelem" id="u19529-6">
+                    <div
+                      className="clearfix colelem"
+                      id="u19529-6"
+                      style={{minHeight: '0px'}}>
                       {/* content */}
                       <p id="u19529-2">Yan Li, Esq.</p>
-                      <p id="u19529-4">FOUNDER</p>
                     </div>
                     <div style={bioStyle}>
                       <p>License: California</p>
