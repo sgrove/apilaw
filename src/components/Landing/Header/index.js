@@ -3,14 +3,6 @@ import {Link} from 'react-router-dom'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-const links = [
-  ['Home', '/'],
-  ['About', '/about'],
-  ['Practice'],
-  ['Contact'],
-  ['Journal'],
-]
-
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -556,7 +548,7 @@ class Header extends React.Component {
           data-content-guid="u2126-4_content"
           style={{marginLeft: '325px'}}>
           {/* content */}
-          <p id="u2126-2">日本語</p>
+          <p id="u2126-2">{/*日本語*/}</p>
         </div>
       </div>
     )
