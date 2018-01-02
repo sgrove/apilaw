@@ -106,78 +106,17 @@ class Footer extends React.Component {
                 id="u2245"
                 data-content-guid="u2245_content">
                 {/* group */}
-                <div className="transition clearfix grpelem" id="u2180-6">
+                <div className="clearfix colelem" id="u2279-4">
                   {/* content */}
-                  <p id="u2180-4">
-                    <span id="u2180">​</span>
-                    <span id="u2180-2">
-                      <span className="actAsInlineDiv normal_text" id="u2199">
-                        {/* content */}
-                        <span
-                          className="actAsDiv excludeFromNormalFlow"
-                          id="u2196">
-                          {/* custom html */}
-                          <i className="fa fa-facebook" aria-hidden="true" />
-                        </span>
-                      </span>
-                    </span>
-                    <span id="u2180-3" />
-                  </p>
+                  <p>Location</p>
                 </div>
-                <div className="transition clearfix grpelem" id="u2187-6">
+                <a
+                  className="nonblock nontext MuseLinkActive clearfix colelem"
+                  id="u2281-4"
+                  href="/">
                   {/* content */}
-                  <p id="u2187-4">
-                    <span id="u2187">​</span>
-                    <span id="u2187-2">
-                      <span className="actAsInlineDiv normal_text" id="u2216">
-                        {/* content */}
-                        <span
-                          className="actAsDiv excludeFromNormalFlow"
-                          id="u2213">
-                          {/* custom html */}
-                          <i className="fa fa-twitter" aria-hidden="true" />
-                        </span>
-                      </span>
-                    </span>
-                    <span id="u2187-3" />
-                  </p>
-                </div>
-                <div className="transition clearfix grpelem" id="u2190-6">
-                  {/* content */}
-                  <p id="u2190-4">
-                    <span id="u2190">​</span>
-                    <span id="u2190-2">
-                      <span className="actAsInlineDiv normal_text" id="u2228">
-                        {/* content */}
-                        <span
-                          className="actAsDiv excludeFromNormalFlow"
-                          id="u2225">
-                          {/* custom html */}
-                          <i className="fa fa-linkedin" aria-hidden="true" />
-                        </span>
-                      </span>
-                    </span>
-                    <span id="u2190-3" />
-                  </p>
-                </div>
-                <div className="transition clearfix grpelem" id="u2193-6">
-                  {/* content */}
-                  <p id="u2193-4">
-                    <span id="u2193">​</span>
-                    <span id="u2193-2">
-                      <span className="actAsInlineDiv normal_text" id="u2240">
-                        {/* content */}
-                        <span
-                          className="actAsDiv excludeFromNormalFlow"
-                          id="u2237">
-                          {/* custom html */}
-                          <i className="fa fa-google-plus" aria-hidden="true" />
-                        </span>
-                      </span>
-                    </span>
-                    <span id="u2193-3" />
-                  </p>
-                </div>
+                  <p>388 Market Street, Suite 1300, San Francisco, CA, 94111</p>
+                </a>
               </div>
             </div>
           </div>
