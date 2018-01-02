@@ -6,6 +6,11 @@ import Header from '../Header'
 import Footer from '../Footer'
 import profilePic from '../../../images/profile-pic.jpg'
 
+const ourValuesBoldStyle = {
+  fontWeight: 'bold',
+  fontSize: 'larger',
+}
+
 const ourValuesStyle = {
   textAlign: 'left',
   lineHeight: '24px',
@@ -133,33 +138,34 @@ class About extends React.Component {
                     </span>
                   </p>
                   <p id="u17183-7">
-                    <strong>Efficiency</strong>: We value our clients’ time and
-                    would rather have them spend more time on their business or
-                    family than to have them worry about the complex immigration
-                    process. Therefore, we strive to make the process as
-                    efficient and easy as possible for our clients
+                    <strong style={ourValuesBoldStyle}>Efficiency</strong>: We
+                    value our clients’ time and would rather have them spend
+                    more time on their business or family than to have them
+                    worry about the complex immigration process. Therefore, we
+                    strive to make the process as efficient and easy as possible
+                    for our clients
                   </p>
                   <p id="u17183-8">&nbsp;</p>
                   <p id="u17183-10">
-                    <strong>Relationship</strong>: We believe a truly successful
-                    case comes from an open and trusting relationship between
-                    the client and attorney. We face our clients with
-                    transparency, honesty, and care, with the hope to truly
-                    understand the client’s goals and build an application
-                    strategy that will be the most beneficial to the client. We
-                    strongly encourage our clients to ask any questions and make
-                    any suggestions or criticisms so that we can build a strong
-                    relationship.
+                    <strong style={ourValuesBoldStyle}>Relationship</strong>: We
+                    believe a truly successful case comes from an open and
+                    trusting relationship between the client and attorney. We
+                    face our clients with transparency, honesty, and care, with
+                    the hope to truly understand the client’s goals and build an
+                    application strategy that will be the most beneficial to the
+                    client. We strongly encourage our clients to ask any
+                    questions and make any suggestions or criticisms so that we
+                    can build a strong relationship.
                   </p>
                   <p id="u17183-8">&nbsp;</p>
                   <p id="u17183-10">
-                    <strong>Education</strong>: We want to be a resource to
-                    everyone who struggles with the complex U.S. immigration
-                    system. We offer our first consultation for free with the
-                    hope that people can be better informed and make better
-                    decisions. We also offer seminars and meetup sessions so
-                    that more people can have the opportunity to learn about
-                    U.S. immigration system.
+                    <strong style={ourValuesBoldStyle}>Education</strong>: We
+                    want to be a resource to everyone who struggles with the
+                    complex U.S. immigration system. We offer our first
+                    consultation for free with the hope that people can be
+                    better informed and make better decisions. We also offer
+                    seminars and meetup sessions so that more people can have
+                    the opportunity to learn about U.S. immigration system.
                   </p>
                 </div>
               </div>

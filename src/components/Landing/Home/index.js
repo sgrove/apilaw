@@ -249,7 +249,9 @@ class Home extends React.Component {
                           id="u643-8">
                           {/* content */}
                           <p id="u643-2">Citizenship</p>
-                          <p id="u643-3">&nbsp;</p>
+                          <p id="u643-3" style={{paddingTop: '0px'}}>
+                            &nbsp;
+                          </p>
                           <p id="u643-6">
                             <span id="u643-4">​</span>
                             <span
@@ -575,7 +577,7 @@ class Home extends React.Component {
                           </p>
                           <p id="u967-7">
                             Short term internship or training for those having a
-                            foreign degree.{' '}
+                            foreign degree or work experience.
                           </p>
                           {readMore}
                         </div>
@@ -638,8 +640,8 @@ class Home extends React.Component {
                             <span id="u984-4">L1 VISAS</span>
                           </p>
                           <p id="u984-7">
-                            Transfer of an employee from a foreign group
-                            company.{' '}
+                            Transfer of an employee who has worked for at least
+                            one year at a foreign group company.
                           </p>
                           {readMore}
                         </div>

@@ -10,7 +10,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="position_content" id="page_position_content">
-        <Header pageName="contact" />
+        <Header pageName="contact" noHero={false} heroColor="black" />
 
         <div
           className="clearfix colelem shared_content"
@@ -28,7 +28,10 @@ class Contact extends React.Component {
             className="browser_width grpelem"
             id="u25370-bw"
             style={{height: 313}}>
-            <div className="museBGSize" id="u25370">
+            <div
+              className="museBGSize"
+              id="u25370"
+              style={{background: 'none'}}>
               {/* group */}
               <div className="clearfix" id="u25370_align_to_page">
                 <div className="clearfix grpelem" id="u25381-4">
