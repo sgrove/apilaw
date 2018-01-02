@@ -26,7 +26,7 @@ class Bio extends React.Component {
         <p>
           <strong>Yan Li</strong>, an immigration lawyer who lives in San
           Francisco and works to help people build their dreams in the USA.<br />
-          <a href="https://twitter.com/yanli_tlo">Follow her on Twitter</a>
+          <a href="https://twitter.com/yanli_apilaw">Follow her on Twitter</a>
         </p>
       </div>
     )
