@@ -48,6 +48,8 @@ class Header extends React.Component {
                     : heroColor ? heroColor : '',
                   position: 'fixed',
                   width: '100%',
+                  backgroundSize: '1936px',
+                  backgroundPosition: '0px -185px',
                 }}
                 id="u105"
               />
