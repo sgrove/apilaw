@@ -6,6 +6,24 @@ import Header from '../Header'
 import Footer from '../Footer'
 import profilePic from '../../../images/profile-pic.jpg'
 
+const ourValuesStyle = {
+  textAlign: 'left',
+  lineHeight: '24px',
+  fontFamily: 'raleway, sans-serif',
+  fontSize: '16px',
+  color: 'white',
+  width: '570px',
+}
+
+const bioStyle = {
+  textAlign: 'left',
+  lineHeight: '24px',
+  fontFamily: 'raleway, sans-serif',
+  fontSize: '16px',
+  color: 'black',
+  border: 'none',
+}
+
 class About extends React.Component {
   render() {
     return (
@@ -52,7 +70,7 @@ class About extends React.Component {
                   id="u17132-18"
                   data-content-guid="u17132-18_content">
                   {/* content */}
-                  <p id="u17132-2">High Quality Performance</p>
+                  <p id="u17132-2">API Law Office, and its name</p>
                   <p id="u17132-5">
                     <span id="u17132-3">​</span>
                     <span className="actAsInlineDiv normal_text" id="u17133">
@@ -65,35 +83,27 @@ class About extends React.Component {
                     </span>
                   </p>
                   <p id="u17132-7">
-                    Vivamus ante est, tempus eget suscipit sit amet, laoreet a
-                    dui. Fusce aliquet arcu eget sapien varius fringilla.
-                    Suspendisse porttitor efficitur facilisis. Quisque a
-                    condimentum justo. Donec sed tristique augue. In hac
-                    habitasse platea dictumst.
+                    Founded in San Francisco, API Law Office specializes in U.S.
+                    immigration law and serves companies and entrepreneurs to
+                    acquire appropriate visa and/or green card in order to
+                    establish their businesses in the U.S. API Law Office also
+                    serves individuals to acquire family-based green card as
+                    well as U.S. citizenship.
                   </p>
                   <p id="u17132-8">&nbsp;</p>
-                  <p id="u17132-10">
-                    Nam id enim eleifend turpis efficitur vestibulum.
+                  <p id="u17132-7">
+                    The firm name “API” represents the founder’s two passions.
+                    First, API is an abbreviation of “All Peoples’ Immigration.”
+                    We hope to serve everyone across countries and cultures who
+                    strives for their career and life in the U.S. Second, API is
+                    also an abbreviation of the tech term “Application
+                    Programming Interface” which is a tool/function that enables
+                    programmers to create their own applications much more
+                    efficiently and easily. We hope to become the API of the
+                    complex U.S. immigration system for our clients, so that
+                    they can acquire their visa/green card more efficiently and
+                    easily.
                   </p>
-                  <p id="u17132-11">&nbsp;</p>
-                  <p id="u17132-13">
-                    Donec placerat libero vitae sem placerat pellentesque.
-                  </p>
-                  <p id="u17132-14">&nbsp;</p>
-                  <p id="u17132-16">
-                    Vivamus mauris tellus, tristique nec rhoncus
-                  </p>
-                </div>
-                <div
-                  className="museBGSize grpelem"
-                  id="u17162"
-                  style={{
-                    background:
-                      'transparent url(' +
-                      profilePic +
-                      ') no-repeat center center',
-                  }}>
-                  {/* simple frame */}
                 </div>
               </div>
             </div>
@@ -110,7 +120,7 @@ class About extends React.Component {
                   id="u17183-12"
                   data-content-guid="u17183-12_content">
                   {/* content */}
-                  <p id="u17183-2">Free Case Evaluation</p>
+                  <p id="u17183-2">Our Values</p>
                   <p id="u17183-5">
                     <span id="u17183-3">​</span>
                     <span className="actAsInlineDiv normal_text" id="u17184">
@@ -123,177 +133,38 @@ class About extends React.Component {
                     </span>
                   </p>
                   <p id="u17183-7">
-                    Vivamus ante est, tempus eget suscipit sit amet, laoreet a
-                    dui. Fusce aliquet arcu eget sapien varius fringilla.
-                    Suspendisse porttitor efficitur facilisis. Quisque a
-                    condimentum justo. Donec sed tristique augue. In hac
-                    habitasse platea dictumst.
+                    <strong>Efficiency</strong>: We value our clients’ time and
+                    would rather have them spend more time on their business or
+                    family than to have them worry about the complex immigration
+                    process. Therefore, we strive to make the process as
+                    efficient and easy as possible for our clients
                   </p>
                   <p id="u17183-8">&nbsp;</p>
                   <p id="u17183-10">
-                    Etiam commodo mollis felis hendrerit auctor. Mauris eu urna
-                    bibendum tortor molestie tincidunt
+                    <strong>Relationship</strong>: We believe a truly successful
+                    case comes from an open and trusting relationship between
+                    the client and attorney. We face our clients with
+                    transparency, honesty, and care, with the hope to truly
+                    understand the client’s goals and build an application
+                    strategy that will be the most beneficial to the client. We
+                    strongly encourage our clients to ask any questions and make
+                    any suggestions or criticisms so that we can build a strong
+                    relationship.
+                  </p>
+                  <p id="u17183-8">&nbsp;</p>
+                  <p id="u17183-10">
+                    <strong>Education</strong>: We want to be a resource to
+                    everyone who struggles with the complex U.S. immigration
+                    system. We offer our first consultation for free with the
+                    hope that people can be better informed and make better
+                    decisions. We also offer seminars and meetup sessions so
+                    that more people can have the opportunity to learn about
+                    U.S. immigration system.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <form
-            className="form-grp clearfix grpelem"
-            id="widgetu17240"
-            method="post"
-            encType="multipart/form-data"
-            action="scripts/form-u17240.php">
-            {/* none box */}
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu17256"
-              data-required="true">
-              {/* none box */}
-              <span
-                className="fld-input NoWrap actAsDiv clearfix grpelem"
-                id="u17258-4">
-                {/* content */}
-                <input
-                  className="wrapped-input"
-                  type="text"
-                  spellCheck="false"
-                  id="widgetu17256_input"
-                  name="custom_U17256"
-                  tabIndex={1}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu17256_prompt"
-                  htmlFor="widgetu17256_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu17256_prompt_0_content">
-                    Enter Name
-                  </span>
-                </label>
-              </span>
-            </div>
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu17248"
-              data-required="true"
-              data-type="email">
-              {/* none box */}
-              <span
-                className="fld-input NoWrap actAsDiv clearfix grpelem"
-                id="u17250-4">
-                {/* content */}
-                <input
-                  className="wrapped-input"
-                  type="email"
-                  spellCheck="false"
-                  id="widgetu17248_input"
-                  name="Email"
-                  tabIndex={2}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu17248_prompt"
-                  htmlFor="widgetu17248_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu17248_prompt_0_content">
-                    Enter Email
-                  </span>
-                </label>
-              </span>
-            </div>
-            <div className="clearfix grpelem" id="u17245-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u17245-4_0_content">
-                Submitting Form...
-              </p>
-            </div>
-            <div className="clearfix grpelem" id="u17260-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u17260-4_0_content">
-                The server encountered an error.
-              </p>
-            </div>
-            <div className="clearfix grpelem" id="u17246-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u17246-4_0_content">
-                Form received.
-              </p>
-            </div>
-            <input
-              className="submit-btn NoWrap grpelem"
-              id="u17247-17"
-              type="submit"
-              value=""
-              tabIndex={5}
-            />
-            {/* state-based BG images */}
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu17241"
-              data-required="true">
-              {/* none box */}
-              <span
-                className="fld-textarea actAsDiv clearfix grpelem"
-                id="u17243-4">
-                {/* content */}
-                <textarea
-                  className="wrapped-input"
-                  id="widgetu17241_input"
-                  name="custom_U17241"
-                  tabIndex={4}
-                  defaultValue={''}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu17241_prompt"
-                  htmlFor="widgetu17241_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu17241_prompt_0_content">
-                    Enter Your Message
-                  </span>
-                </label>
-              </span>
-            </div>
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu17252"
-              data-required="true">
-              {/* none box */}
-              <span
-                className="fld-input NoWrap actAsDiv clearfix grpelem"
-                id="u17253-4">
-                {/* content */}
-                <input
-                  className="wrapped-input"
-                  type="tel"
-                  spellCheck="false"
-                  id="widgetu17252_input"
-                  name="custom_U17252"
-                  tabIndex={3}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu17252_prompt"
-                  htmlFor="widgetu17252_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu17252_prompt_0_content">
-                    Enter Phone Number
-                  </span>
-                </label>
-              </span>
-            </div>
-          </form>
           <div
             className="grpelem shared_content"
             id="u5504"
@@ -306,7 +177,7 @@ class About extends React.Component {
           <div
             className="browser_width grpelem"
             id="u17808-bw"
-            style={{height: 1319}}>
+            style={{minHeight: '622px'}}>
             <div id="u17808">
               {/* group */}
               <div className="clearfix" id="u17808_align_to_page">
@@ -315,187 +186,47 @@ class About extends React.Component {
                   id="u18968"
                   data-content-guid="u18968_content">
                   {/* group */}
-                  <div className="clearfix grpelem" id="u17470">
+                  <div
+                    className="clearfix grpelem"
+                    id="u17470"
+                    style={bioStyle}>
                     {/* column */}
-                    <div className="museBGSize clearfix colelem" id="u17450">
-                      {/* group */}
-                      <div
-                        className="transition clearfix grpelem"
-                        id="u18209-5">
-                        {/* content */}
-                        <p id="u18209-3">
-                          <span id="u18209">​</span>
-                          <span
-                            className="actAsInlineDiv normal_text"
-                            id="u18325">
-                            {/* content */}
-                            <span
-                              className="actAsDiv clearfix excludeFromNormalFlow"
-                              id="u18275">
-                              {/* group */}
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u18277"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-phone-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u18276"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-envelope-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                            </span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="clearfix colelem" id="u17460-6">
-                      {/* content */}
-                      <p id="u17460-2">James Halleson</p>
-                      <p id="u17460-4">FOUNDER</p>
-                    </div>
-                    <a
-                      className="nonblock nontext transition clearfix colelem"
-                      id="u18958-4"
-                      href="attorney1.html">
-                      {/* content */}
-                      <p id="u18958-2">View Full Profile</p>
-                    </a>
+                    Born in Shanghai, China, Yan emigrated to Japan when she was
+                    8 years old. After graduating high school in Hiroshima,
+                    Japan, Yan came to the U.S. as an international student. Her
+                    own immigration experience coupled with her witnessing
+                    foreigners’ struggle with immigration status in the U.S.
+                    drove her to become an immigration attorney. After
+                    graduating from University of California, Los Angeles
+                    (UCLA), Yan took advantage of the Optional Practical
+                    Training (OPT) system to gain practical experience at an
+                    immigration law firm as a legal assistant. After OPT, Yan
+                    entered Santa Clara University, School of Law where she
+                    worked on various immigration cases with the law school’s
+                    affiliated immigration clinic as well as non profit
+                    organizations. She also represented a client on an asylum
+                    case before the United States Court of Appeals for the Ninth
+                    Circuit and successfully negotiated for prosecutorial
+                    discretion with the U.S. Immigration and Customs
+                    Enforcement.
+                    <br />
+                    <br />
+                    After graduating from law school and acquiring her attorney
+                    license in 2013, Yan began her career as an immigration
+                    attorney with a law firm exclusively specializes in U.S.
+                    immigration law. As the managing attorney at the law firm’s
+                    Silicon Valley branch office, Yan had the opportunity to
+                    work with a number of companies and entrepreneurs who were
+                    starting their new businesses in the U.S. Getting visas for
+                    new companies can be very challenging, but Yan found the joy
+                    and passion in serving these clients who strive for success
+                    with their own passion and mission. In January 2018, Yan
+                    founded API Law Office with her passion in providing
+                    immigration services with high quality, high efficiency, and
+                    high value.
                   </div>
                 </div>
-                <div
-                  className="clearfix grpelem shared_content"
-                  id="u19102"
-                  data-content-guid="u19102_content">
-                  {/* group */}
-                  <div className="clearfix grpelem" id="u19109">
-                    {/* column */}
-                    <div className="museBGSize clearfix colelem" id="u19108">
-                      {/* group */}
-                      <div
-                        className="transition clearfix grpelem"
-                        id="u19103-5">
-                        {/* content */}
-                        <p id="u19103-3">
-                          <span id="u19103">​</span>
-                          <span
-                            className="actAsInlineDiv normal_text"
-                            id="u19104">
-                            {/* content */}
-                            <span
-                              className="actAsDiv clearfix excludeFromNormalFlow"
-                              id="u19105">
-                              {/* group */}
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u19107"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-phone-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u19106"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-envelope-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                            </span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="clearfix colelem" id="u19110-6">
-                      {/* content */}
-                      <p id="u19110-2">Marina Dow</p>
-                      <p id="u19110-4">CORPORATE LAW</p>
-                    </div>
-                    <a
-                      className="nonblock nontext transition clearfix colelem"
-                      id="u19111-4"
-                      href="attorney1.html">
-                      {/* content */}
-                      <p id="u19111-2">View Full Profile</p>
-                    </a>
-                  </div>
-                </div>
-                <div
-                  className="clearfix grpelem shared_content"
-                  id="u19311"
-                  data-content-guid="u19311_content">
-                  {/* group */}
-                  <div className="clearfix grpelem" id="u19317">
-                    {/* column */}
-                    <div className="museBGSize clearfix colelem" id="u19319">
-                      {/* group */}
-                      <div
-                        className="transition clearfix grpelem"
-                        id="u19312-5">
-                        {/* content */}
-                        <p id="u19312-3">
-                          <span id="u19312">​</span>
-                          <span
-                            className="actAsInlineDiv normal_text"
-                            id="u19313">
-                            {/* content */}
-                            <span
-                              className="actAsDiv clearfix excludeFromNormalFlow"
-                              id="u19314">
-                              {/* group */}
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u19316"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-phone-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                              <a
-                                className="nonblock nontext MuseLinkActive actAsDiv grpelem"
-                                id="u19315"
-                                href="attorneys.html">
-                                {/* custom html */}
-                                <i
-                                  className="fa fa-envelope-square"
-                                  aria-hidden="true"
-                                />
-                              </a>
-                            </span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="clearfix colelem" id="u19320-6">
-                      {/* content */}
-                      <p id="u19320-2">Thomas Smith</p>
-                      <p id="u19320-4">CORPORATE LAW</p>
-                    </div>
-                    <a
-                      className="nonblock nontext transition clearfix colelem"
-                      id="u19318-4"
-                      href="attorney1.html">
-                      {/* content */}
-                      <p id="u19318-2">View Full Profile</p>
-                    </a>
-                  </div>
-                </div>
+
                 <div
                   className="clearfix grpelem shared_content"
                   id="u19520"
@@ -503,7 +234,15 @@ class About extends React.Component {
                   {/* group */}
                   <div className="clearfix grpelem" id="u19528">
                     {/* column */}
-                    <div className="museBGSize clearfix colelem" id="u19522">
+                    <div
+                      className="museBGSize clearfix colelem"
+                      id="u19522"
+                      style={{
+                        background:
+                          '#ffffff url(' +
+                          profilePic +
+                          ') no-repeat center center',
+                      }}>
                       {/* group */}
                       <div
                         className="transition clearfix grpelem"
@@ -522,7 +261,7 @@ class About extends React.Component {
                               <a
                                 className="nonblock nontext MuseLinkActive actAsDiv grpelem"
                                 id="u19527"
-                                href="attorneys.html">
+                                href="tel:+14158553088">
                                 {/* custom html */}
                                 <i
                                   className="fa fa-phone-square"
@@ -532,7 +271,7 @@ class About extends React.Component {
                               <a
                                 className="nonblock nontext MuseLinkActive actAsDiv grpelem"
                                 id="u19526"
-                                href="attorneys.html">
+                                href="mailto:info@apilaw.com?subject=Case inquiry">
                                 {/* custom html */}
                                 <i
                                   className="fa fa-envelope-square"
@@ -546,218 +285,12 @@ class About extends React.Component {
                     </div>
                     <div className="clearfix colelem" id="u19529-6">
                       {/* content */}
-                      <p id="u19529-2">Marta Dowson</p>
-                      <p id="u19529-4">FAMILY LAW</p>
+                      <p id="u19529-2">Yan Li, Esq.</p>
+                      <p id="u19529-4">FOUNDER</p>
                     </div>
-                    <a
-                      className="nonblock nontext transition clearfix colelem"
-                      id="u19521-4"
-                      href="attorney1.html">
-                      {/* content */}
-                      <p id="u19521-2">View Full Profile</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="browser_width grpelem shared_content"
-            id="u19753-bw"
-            data-content-guid="u19753-bw_content"
-            style={{height: 625}}>
-            <div className="rgba-background" id="u19753">
-              {/* column */}
-              <div className="clearfix" id="u19753_align_to_page">
-                <div className="clearfix colelem" id="pu19787-4">
-                  {/* group */}
-                  <div className="clearfix grpelem" id="u19787-4">
-                    {/* content */}
-                    <p>Testimonials</p>
-                  </div>
-                  <div
-                    className="clearfix grpelem shared_content"
-                    id="u19788-4"
-                    data-content-guid="u19788-4_content">
-                    {/* content */}
-                    <p>-Our Clients Sais-</p>
-                  </div>
-                </div>
-                <div
-                  className="colelem shared_content"
-                  id="u20964"
-                  data-content-guid="u20964_content">
-                  {/* custom html */}
-                  <i className="fa fa-quote-right" aria-hidden="true" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="PamphletWidget clearfix grpelem wp-slideshow-playing"
-            id="pamphletu20334">
-            {/* none box */}
-            <div
-              className="ThumbGroup clearfix grpelem"
-              id="u20335"
-              role="tablist">
-              {/* none box */}
-              <div className="popup_anchor">
-                <div
-                  className="Thumb popup_element rounded-corners wp-tab-active PamphletThumbSelected"
-                  id="u20337"
-                  role="tab"
-                  tabIndex={0}
-                  aria-selected="true"
-                  aria-controls="u20346">
-                  {/* simple frame */}
-                </div>
-              </div>
-              <div className="popup_anchor">
-                <div
-                  className="Thumb popup_element rounded-corners"
-                  id="u20484"
-                  role="tab"
-                  tabIndex={-1}
-                  aria-selected="false"
-                  aria-controls="u20508">
-                  {/* simple frame */}
-                </div>
-              </div>
-              <div className="popup_anchor">
-                <div
-                  className="Thumb popup_element rounded-corners"
-                  id="u20525"
-                  role="tab"
-                  tabIndex={-1}
-                  aria-selected="false"
-                  aria-controls="u20542">
-                  {/* simple frame */}
-                </div>
-              </div>
-            </div>
-            <div className="popup_anchor" id="u20343popup">
-              <div
-                className="wp-slideshow-clip"
-                style={{
-                  position: 'absolute',
-                  width: 819,
-                  height: 239,
-                  overflow: 'hidden',
-                  left: 0,
-                  top: 0,
-                }}>
-                <div
-                  className="ContainerGroup clearfix"
-                  id="u20343"
-                  style={{
-                    width: 2457,
-                    height: 239,
-                    position: 'relative',
-                    top: 0,
-                    left: 0,
-                    margin: 0,
-                    overflow: 'visible',
-                  }}>
-                  {/* stack box */}
-                  <div
-                    className="Container clearfix grpelem wp-panel wp-panel-active"
-                    id="u20346"
-                    role="tabpanel"
-                    aria-labelledby="u20337"
-                    style={{top: 0, left: 0, margin: 0, position: 'absolute'}}>
-                    {/* group */}
-                    <div
-                      className="clearfix grpelem shared_content"
-                      id="u20782"
-                      data-content-guid="u20782_content">
-                      {/* group */}
-                      <div className="clearfix grpelem" id="u20784-6">
-                        {/* content */}
-                        <p id="u20784-2">
-                          Pellentesque fermentum tortor ligula, vitae placerat
-                          dui lacinia vel. Aliquam vitae justo in nibh pretium
-                          bibendum. Fusce nibh ipsum, dictum at fermentum eget,
-                          dignissim a est. Quisque facilisis iaculis nulla, vel
-                          dignissim enim facilisis eu.
-                        </p>
-                        <p id="u20784-4">John Dowson</p>
-                      </div>
-                      <div
-                        className="museBGSize rounded-corners grpelem"
-                        id="u20785">
-                        {/* simple frame */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="Container clearfix grpelem wp-panel"
-                    id="u20508"
-                    role="tabpanel"
-                    aria-labelledby="u20484"
-                    style={{
-                      top: 0,
-                      left: 819,
-                      margin: 0,
-                      position: 'absolute',
-                    }}>
-                    {/* group */}
-                    <div
-                      className="clearfix grpelem shared_content"
-                      id="u20873"
-                      data-content-guid="u20873_content">
-                      {/* group */}
-                      <div className="clearfix grpelem" id="u20875-6">
-                        {/* content */}
-                        <p id="u20875-2">
-                          Pellentesque fermentum tortor ligula, vitae placerat
-                          dui lacinia vel. Aliquam vitae justo in nibh pretium
-                          bibendum. Fusce nibh ipsum, dictum at fermentum eget,
-                          dignissim a est. Quisque facilisis iaculis nulla, vel
-                          dignissim enim facilisis eu.
-                        </p>
-                        <p id="u20875-4">John Dowson</p>
-                      </div>
-                      <div
-                        className="museBGSize rounded-corners grpelem"
-                        id="u20876">
-                        {/* simple frame */}
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="Container clearfix grpelem wp-panel"
-                    id="u20542"
-                    role="tabpanel"
-                    aria-labelledby="u20525"
-                    style={{
-                      top: 0,
-                      left: 1638,
-                      margin: 0,
-                      position: 'absolute',
-                    }}>
-                    {/* group */}
-                    <div
-                      className="clearfix grpelem shared_content"
-                      id="u20681"
-                      data-content-guid="u20681_content">
-                      {/* group */}
-                      <div className="clearfix grpelem" id="u20559-6">
-                        {/* content */}
-                        <p id="u20559-2">
-                          Pellentesque fermentum tortor ligula, vitae placerat
-                          dui lacinia vel. Aliquam vitae justo in nibh pretium
-                          bibendum. Fusce nibh ipsum, dictum at fermentum eget,
-                          dignissim a est. Quisque facilisis iaculis nulla, vel
-                          dignissim enim facilisis eu.
-                        </p>
-                        <p id="u20559-4">John Dowson</p>
-                      </div>
-                      <div
-                        className="museBGSize rounded-corners grpelem"
-                        id="u20663">
-                        {/* simple frame */}
-                      </div>
+                    <div style={bioStyle}>
+                      <p>License: California</p>
+                      <p>Languages: Japanese, Chinese, English</p>
                     </div>
                   </div>
                 </div>
@@ -765,21 +298,7 @@ class About extends React.Component {
             </div>
           </div>
         </div>
-        <div
-          className="verticalspacer"
-          data-offset-top={2666}
-          data-content-above-spacer={2665}
-          data-content-below-spacer={315}
-          style={{height: 'calc((100vh - 2980px) - 1px)'}}
-        />
-        <div
-          className="browser_width colelem"
-          id="u17182-bw"
-          style={{height: 440}}>
-          <div className="museBGSize" id="u17182">
-            {/* simple frame */}
-          </div>
-        </div>
+
         <Footer />
       </div>
     )

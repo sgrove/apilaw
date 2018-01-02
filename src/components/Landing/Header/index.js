@@ -244,7 +244,7 @@ class Header extends React.Component {
                     href="/"
                     data-content-guid="u35018-4_content">
                     {/* content */}
-                    <p id="u35018-2">日本語</p>
+                    <p id="u35018-2">{/*日本語*/}</p>
                   </a>
                 </div>
               </div>
