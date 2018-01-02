@@ -401,7 +401,7 @@ class Home extends React.Component {
                         {/* content */}
                         <h2>
                           <a
-                            href="/services"
+                            href="/practice"
                             style={{textDecoration: 'none', color: 'black'}}>
                             -What We Do-
                           </a>
