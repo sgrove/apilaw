@@ -3,7 +3,28 @@ import {Link} from 'react-router-dom'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+const links = [
+  ['Home', '/'],
+  ['About', '/about'],
+  ['Practice'],
+  ['Contact'],
+  ['Journal'],
+]
+
 class Header extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isMenuOpen: false,
+    }
+  }
+  handleMenuToggle(event) {
+    event.stopPropagation()
+    event.preventDefault()
+    this.setState(oldState => {
+      return {...oldState, isMenuOpen: !oldState.isMenuOpen}
+    })
+  }
   render() {
     const pageName = !!this.props.pageName
       ? this.props.pageName.toLowerCase()
@@ -61,8 +82,7 @@ class Header extends React.Component {
           className="nonblock nontext shadow clearfix shared_content"
           id="u318-6"
           href="/"
-          data-content-guid="u318-6_content"
-          style={{marginLeft: '-630px'}}>
+          data-content-guid="u318-6_content">
           {/* content */}
           <p id="u5473-6">
             <span id="u318">API</span>
@@ -70,6 +90,335 @@ class Header extends React.Component {
             <span id="u318-3">LAW OFFICE</span>
           </p>
         </a>
+        <div className="clearfix colelem temp_no_id" data-orig-id="pu94">
+          {/* group */}
+          <span
+            className="browser_width placeholder"
+            data-placeholder-for="u94-bw_content">
+            {/* placeholder node */}
+          </span>
+          <span
+            className="browser_width placeholder"
+            data-placeholder-for="u105-bw_content">
+            {/* placeholder node */}
+          </span>
+          <span
+            className="browser_width placeholder"
+            data-placeholder-for="u232-bw_content">
+            {/* placeholder node */}
+          </span>
+          <span
+            className="nonblock nontext MuseLinkActive shadow clearfix placeholder"
+            data-placeholder-for="u318-6_content">
+            {/* placeholder node */}
+          </span>
+
+          <div className="PamphletWidget clearfix" id="pamphletu35010">
+            {/* none box */}
+            <div
+              className="popup_anchor"
+              id="u35016popup"
+              style={{display: this.state.isMenuOpen ? 'block' : 'none'}}>
+              <div className="ContainerGroup clearfix" id="u35016">
+                {/* stack box */}
+                <div className="Container invi clearfix grpelem" id="u35017">
+                  {/* column */}
+                  <nav className="MenuBar clearfix colelem" id="menuu35019">
+                    {/* vertical box */}
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35034">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'home' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35037"
+                        href="/">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35038-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35038-4_0_content">
+                            Home
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35020">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'about' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35023"
+                        href="/about">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35025-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35025-4_0_content">
+                            About
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35027">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'practice' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35028"
+                        href="/practice">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35030-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35030-4_0_content">
+                            Practice
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35041">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'contact' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35042"
+                        href="/contact">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35043-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35043-4_0_content">
+                            Contact
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35041">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'journal' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35042"
+                        href="/blog">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35043-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35043-4_0_content">
+                            Journal
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                  <a
+                    className="nonblock nontext MuseLinkActive clearfix colelem shared_content"
+                    id="u35018-4"
+                    href="/"
+                    data-content-guid="u35018-4_content">
+                    {/* content */}
+                    <p id="u35018-2">Call Us : +1.415.690.1100</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="popup_anchor">
+              <div
+                className="PamphletCloseButton PamphletLightboxPart popup_element clearfix"
+                id="u35014"
+                onClick={this.handleMenuToggle.bind(this)}>
+                {/* group */}
+                <div
+                  className="grpelem shared_content"
+                  id="u35015"
+                  data-content-guid="u35015_content">
+                  {/* custom html */}
+                  <i
+                    className={
+                      'fa fa-' + (this.state.isMenuOpen ? 'times' : 'bars')
+                    }
+                    aria-hidden="true"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="PamphletWidget clearfix temp_no_id"
+            data-orig-id="pamphletu35010">
+            {/* none box */}
+            <div className="popup_anchor temp_no_id" data-orig-id="u35016popup">
+              <div
+                className="ContainerGroup clearfix temp_no_id"
+                data-orig-id="u35016">
+                {/* stack box */}
+                <div
+                  className="Container invi clearfix grpelem temp_no_id"
+                  data-orig-id="u35017">
+                  {/* column */}
+                  <nav
+                    className="MenuBar clearfix colelem temp_no_id"
+                    data-orig-id="menuu35019">
+                    {/* vertical box */}
+                    <div
+                      className="MenuItemContainer clearfix colelem temp_no_id"
+                      data-orig-id="u35034">
+                      {/* horizontal box */}
+                      <a
+                        className="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id"
+                        href="/"
+                        data-orig-id="u35037">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem temp_no_id"
+                          data-orig-id="u35038-4">
+                          {/* content */}
+                          <span
+                            className="placeholder"
+                            data-placeholder-for="u35038-4_0_content">
+                            {/* placeholder node */}
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem temp_no_id"
+                      data-orig-id="u35020">
+                      {/* horizontal box */}
+                      <a
+                        className="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix grpelem temp_no_id"
+                        href="/practice"
+                        data-orig-id="u35023">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem temp_no_id"
+                          data-orig-id="u35025-4">
+                          {/* content */}
+                          <span
+                            className="placeholder"
+                            data-placeholder-for="u35025-4_0_content">
+                            {/* placeholder node */}
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem temp_no_id"
+                      data-orig-id="u35027">
+                      {/* horizontal box */}
+                      <a
+                        className="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix grpelem temp_no_id"
+                        href="/attorneys"
+                        data-orig-id="u35028">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem temp_no_id"
+                          data-orig-id="u35030-4">
+                          {/* content */}
+                          <span
+                            className="placeholder"
+                            data-placeholder-for="u35030-4_0_content">
+                            {/* placeholder node */}
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem temp_no_id"
+                      data-orig-id="u35041">
+                      {/* horizontal box */}
+                      <a
+                        className="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix grpelem temp_no_id"
+                        href="/contact"
+                        data-orig-id="u35042">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem temp_no_id"
+                          data-orig-id="u35043-4">
+                          {/* content */}
+                          <span
+                            className="placeholder"
+                            data-placeholder-for="u35043-4_0_content">
+                            {/* placeholder node */}
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                  <span
+                    className="nonblock nontext MuseLinkActive clearfix colelem placeholder"
+                    data-placeholder-for="u35018-4_content">
+                    {/* placeholder node */}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ThumbGroup clearfix grpelem temp_no_id"
+              data-orig-id="u35011">
+              {/* none box */}
+              <div className="popup_anchor">
+                <div
+                  className="Thumb popup_element clearfix temp_no_id"
+                  data-orig-id="u35012">
+                  {/* group */}
+                  <span
+                    className="grpelem placeholder"
+                    data-placeholder-for="u35013_content">
+                    {/* placeholder node */}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="popup_anchor">
+              <div
+                className="PamphletCloseButton PamphletLightboxPart popup_element clearfix temp_no_id"
+                data-orig-id="u35014">
+                {/* group */}
+                <span
+                  className="grpelem placeholder"
+                  data-placeholder-for="u35015_content">
+                  {/* placeholder node */}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         <nav
           className="MenuBar clearfix"
           id="menuu1997"

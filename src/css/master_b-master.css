@@ -15,6 +15,15 @@
   -pie-box-shadow: 1px 0px 0px #bfa16a;
   box-shadow: 1px 0px 0px #bfa16a;
 }
+#u5473-6 {
+  z-index: 280;
+  width: 275px;
+  margin-left: 0px;
+}
+#u5473-6.MuseLinkActive {
+  margin-left: 0px;
+  width: 275px;
+}
 #u5473-3 {
   color: #703030;
   font-family: raleway, sans-serif;
@@ -238,7 +247,11 @@
 #u5468 {
   background-color: #bfa16a;
 }
-@media (min-width: 1201px), print {
+@media (min-width: 600px), print {
+  #u318-6 {
+      display: block;
+      margin-left: -630px;
+  }
   #menuu5474 {
     border-width: 0px;
     border-color: transparent;
@@ -1615,6 +1628,10 @@
   }
 }
 @media (max-width: 600px) {
+  #u318-6 {
+      display: block;
+      margin-left: 0px;
+  }
   #u7032 {
     border-width: 0px;
     border-color: #999999;
