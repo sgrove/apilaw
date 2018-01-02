@@ -427,7 +427,7 @@ class Home extends React.Component {
                           </p>
                           <p id="u875-7">
                             Companies that conduct international trade business
-                            or make Investments in the U.S.
+                            or make investments in the U.S.
                           </p>
                           {readMore}
                         </div>
@@ -679,7 +679,7 @@ class Home extends React.Component {
                     <div className="clearfix" id="u1467_align_to_page">
                       <div className="clearfix grpelem" id="u1470-4">
                         {/* content */}
-                        <p>Happening</p>
+                        <p>News</p>
                       </div>
                       <div
                         className="news clearfix grpelem shared_content"
@@ -690,7 +690,7 @@ class Home extends React.Component {
                           <a
                             href="/blog"
                             style={{textDecoration: 'none', color: 'black'}}>
-                            -News-
+                            -What's Happening- {/* ' */}
                           </a>
                         </p>
                       </div>
