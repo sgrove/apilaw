@@ -1020,7 +1020,7 @@
 body {
   position: relative;
 }
-@media (min-width: 1201px), print {
+@media (min-width: 600px), print {
   #muse_css_mq {
     background-color: #ffffff;
   }
