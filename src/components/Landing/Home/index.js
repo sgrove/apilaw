@@ -367,14 +367,20 @@ class Home extends React.Component {
                       {/* group */}
                       <div className="clearfix grpelem" id="u866-4">
                         {/* content */}
-                        <p>Practice Area</p>
+                        <p>Services</p>
                       </div>
                       <div
                         className="whatwedo clearfix grpelem shared_content"
                         id="u869-4"
                         data-content-guid="u869-4_content">
                         {/* content */}
-                        <h2>-What We Do-</h2>
+                        <h2>
+                          <a
+                            href="/services"
+                            style={{textDecoration: 'none', color: 'black'}}>
+                            -What we do-
+                          </a>
+                        </h2>
                       </div>
                     </div>
                     <div className="clearfix colelem" id="u9964">
