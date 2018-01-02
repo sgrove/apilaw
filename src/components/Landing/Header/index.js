@@ -192,31 +192,7 @@ class Header extends React.Component {
                           <p
                             className="shared_content"
                             data-content-guid="u35030-4_0_content">
-                            Practice
-                          </p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      className="MenuItemContainer clearfix colelem"
-                      id="u35041">
-                      {/* horizontal box */}
-                      <a
-                        className={
-                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
-                          (pageName == 'contact' ? ' MuseMenuActive' : '')
-                        }
-                        id="u35042"
-                        href="/contact">
-                        {/* horizontal box */}
-                        <div
-                          className="MenuItemLabel clearfix grpelem"
-                          id="u35043-4">
-                          {/* content */}
-                          <p
-                            className="shared_content"
-                            data-content-guid="u35043-4_0_content">
-                            Contact
+                            Services
                           </p>
                         </div>
                       </a>
@@ -245,6 +221,30 @@ class Header extends React.Component {
                         </div>
                       </a>
                     </div>
+                    <div
+                      className="MenuItemContainer clearfix colelem"
+                      id="u35041">
+                      {/* horizontal box */}
+                      <a
+                        className={
+                          'nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem' +
+                          (pageName == 'contact' ? ' MuseMenuActive' : '')
+                        }
+                        id="u35042"
+                        href="/contact">
+                        {/* horizontal box */}
+                        <div
+                          className="MenuItemLabel clearfix grpelem"
+                          id="u35043-4">
+                          {/* content */}
+                          <p
+                            className="shared_content"
+                            data-content-guid="u35043-4_0_content">
+                            Contact
+                          </p>
+                        </div>
+                      </a>
+                    </div>
                   </nav>
                   <a
                     className="nonblock nontext MuseLinkActive clearfix colelem shared_content"
@@ -252,7 +252,7 @@ class Header extends React.Component {
                     href="/"
                     data-content-guid="u35018-4_content">
                     {/* content */}
-                    <p id="u35018-2">Call Us : +1.415.690.1100</p>
+                    <p id="u35018-2">日本語</p>
                   </a>
                 </div>
               </div>
@@ -454,10 +454,10 @@ class Header extends React.Component {
             <a
               className={
                 'nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem' +
-                (pageName == 'contact' ? ' MuseMenuActive' : '')
+                (pageName == 'journal' ? ' MuseMenuActive' : '')
               }
               id="u2066"
-              href="/contact">
+              href="/blog">
               {/* horizontal box */}
               <div
                 className="MenuItemLabel NoWrap clearfix grpelem"
@@ -466,7 +466,7 @@ class Header extends React.Component {
                 <p
                   className="shared_content"
                   data-content-guid="u2068-4_0_content">
-                  Contact
+                  News
                 </p>
               </div>
             </a>
@@ -532,10 +532,10 @@ class Header extends React.Component {
             <Link
               className={
                 'nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem' +
-                (pageName == 'journal' ? ' MuseMenuActive' : '')
+                (pageName == 'contact' ? ' MuseMenuActive' : '')
               }
               id="u2108"
-              to="/blog">
+              to="/contact">
               {/* horizontal box */}
               <div
                 className="MenuItemLabel NoWrap clearfix grpelem"
@@ -544,7 +544,7 @@ class Header extends React.Component {
                 <p
                   className="shared_content"
                   data-content-guid="u2111-4_0_content">
-                  Journal
+                  Contact
                 </p>
               </div>
             </Link>
@@ -556,7 +556,7 @@ class Header extends React.Component {
           data-content-guid="u2126-4_content"
           style={{marginLeft: '325px'}}>
           {/* content */}
-          <p id="u2126-2">Call Us : +1-415-690-1100</p>
+          <p id="u2126-2">日本語</p>
         </div>
       </div>
     )

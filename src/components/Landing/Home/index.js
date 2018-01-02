@@ -7,6 +7,30 @@ import Footer from '../Footer'
 import headerBg from '../../../images/liberty.jpg'
 import {Fade, Flip, Rotate, Zoom} from 'react-reveal'
 
+const readMore = (
+  <p id="u875-10">
+    <span id="u875-8">​</span>
+    <span className="actAsInlineDiv normal_text" id="u883">
+      {/* content */}
+      <span
+        className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
+        id="u881-4">
+        {/* content */}
+        <span className="actAsPara" id="u881-2">
+          <a
+            href="/services"
+            style={{
+              textDecoration: 'none',
+              color: 'white',
+            }}>
+            READ MORE
+          </a>
+        </span>
+      </span>
+    </span>
+  </p>
+)
+
 class Home extends React.Component {
   constructor(props) {
     super(props)
@@ -86,7 +110,7 @@ class Home extends React.Component {
                 id="u307-4"
                 data-content-guid="u307-4_content">
                 {/* content */}
-                <p>A full-service firm</p>
+                <p>Business and Family Immigration</p>
               </div>
               <div
                 className="clearfix colelem shared_content"
@@ -116,7 +140,7 @@ class Home extends React.Component {
                           className="rounded-corners clearfix grpelem"
                           id="u328-7">
                           {/* content */}
-                          <p id="u328-2">CORPORATE &amp; COMMERCIAL LAW</p>
+                          <p id="u328-2">Work Visa</p>
                           <p id="u328-5">
                             <span id="u328-3">​</span>
                             <span
@@ -130,7 +154,7 @@ class Home extends React.Component {
                                 <a
                                   className="nonblock nontext actAsDiv transition clearfix grpelem"
                                   id="u356-4"
-                                  href="features.html">
+                                  href="/practice">
                                   {/* content */}
                                   <span className="actAsPara">
                                     Learn More &gt;
@@ -165,8 +189,7 @@ class Home extends React.Component {
                           className="rounded-corners clearfix grpelem"
                           id="u621-9">
                           {/* content */}
-                          <p id="u621-2">SOCIAL SECURITY</p>
-                          <p id="u621-4">&nbsp;LAW</p>
+                          <p id="u621-2">Green Card</p>
                           <p id="u621-7">
                             <span id="u621-5">​</span>
                             <span
@@ -180,7 +203,7 @@ class Home extends React.Component {
                                 <a
                                   className="nonblock nontext actAsDiv transition clearfix grpelem"
                                   id="u624-4"
-                                  href="features.html">
+                                  href="/practice">
                                   {/* content */}
                                   <span className="actAsPara">
                                     Learn More &gt;
@@ -215,7 +238,7 @@ class Home extends React.Component {
                           className="rounded-corners clearfix grpelem"
                           id="u643-8">
                           {/* content */}
-                          <p id="u643-2">BANKING &amp; FINANCE</p>
+                          <p id="u643-2">Citizenship</p>
                           <p id="u643-3">&nbsp;</p>
                           <p id="u643-6">
                             <span id="u643-4">​</span>
@@ -230,7 +253,7 @@ class Home extends React.Component {
                                 <a
                                   className="nonblock nontext actAsDiv transition clearfix grpelem"
                                   id="u647-4"
-                                  href="features.html">
+                                  href="/practice">
                                   {/* content */}
                                   <span className="actAsPara">
                                     Learn More &gt;
@@ -290,7 +313,7 @@ class Home extends React.Component {
                         id="u715-15"
                         data-content-guid="u715-15_content">
                         {/* content */}
-                        <p id="u715-2">Our History</p>
+                        <p id="u715-2">API Law Office</p>
                         <p id="u715-5">
                           <span id="u715-3">​</span>
                           <span
@@ -305,22 +328,20 @@ class Home extends React.Component {
                           </span>
                         </p>
                         <p id="u715-7">
-                          Vivamus ante est, tempus eget suscipit sit amet,
-                          laoreet a dui. Fusce aliquet arcu eget sapien varius
-                          fringilla. Suspendisse porttitor efficitur facilisis.
-                          Quisque a condimentum justo. Donec sed tristique
-                          augue. In hac habitasse platea dictumst.
+                          Founded in San Francisco, California, API Law Office
+                          specializes in U.S. immigration law and serves
+                          companies and entrepreneurs to acquire appropriate
+                          visa and/or green card in order to establish their
+                          businesses in the U.S. API Law Office also serves
+                          individuals to acquire family-based green card as well
+                          as U.S. citizenship.
                         </p>
                         <p id="u715-8">&nbsp;</p>
-                        <p id="u715-10">
-                          Nam id enim eleifend turpis efficitur vestibulum.
-                          Donec placerat libero vitae sem placerat pellentesque.
-                          Vivamus mauris tellus, tristique nec rhoncus ac,
-                          pulvinar vel lectus. Mauris eleifend ante ut rutrum
-                          rhoncus.
-                        </p>
+                        <p id="u715-8">&nbsp;</p>
                         <p id="u715-11">&nbsp;</p>
-                        <p id="u715-13">John Dowson</p>
+                        <p id="u715-13">
+                          <a href="/about"> Learn More</a>
+                        </p>
                       </div>
                       <div
                         className="historyimage museBGSize grpelem shared_content"
@@ -329,171 +350,6 @@ class Home extends React.Component {
                         {/* simple frame */}
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="clearfix colelem" id="pu733">
-                {/* group */}
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u733-bw"
-                  data-content-guid="u733-bw_content">
-                  <div id="u733">{/* simple frame */}</div>
-                </div>
-                <form
-                  className="form-grp clearfix grpelem"
-                  id="widgetu745"
-                  method="post"
-                  encType="multipart/form-data"
-                  action="scripts/form-u745.php">
-                  {/* none box */}
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu748"
-                    data-required="true">
-                    {/* none box */}
-                    <span
-                      className="fld-input NoWrap actAsDiv clearfix grpelem"
-                      id="u749-4">
-                      {/* content */}
-                      <input
-                        className="wrapped-input"
-                        type="text"
-                        spellCheck="false"
-                        id="widgetu748_input"
-                        name="custom_U748"
-                        tabIndex={1}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu748_prompt"
-                        htmlFor="widgetu748_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu748_prompt_0_content">
-                          Enter Name
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu754"
-                    data-required="true"
-                    data-type="email">
-                    {/* none box */}
-                    <span
-                      className="fld-input NoWrap actAsDiv clearfix grpelem"
-                      id="u755-4">
-                      {/* content */}
-                      <input
-                        className="wrapped-input"
-                        type="email"
-                        spellCheck="false"
-                        id="widgetu754_input"
-                        name="Email"
-                        tabIndex={2}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu754_prompt"
-                        htmlFor="widgetu754_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu754_prompt_0_content">
-                          Enter Email
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                  <div className="clearfix grpelem" id="u746-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u746-4_0_content">
-                      Submitting Form...
-                    </p>
-                  </div>
-                  <div className="clearfix grpelem" id="u752-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u752-4_0_content">
-                      The server encountered an error.
-                    </p>
-                  </div>
-                  <div className="clearfix grpelem" id="u747-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u747-4_0_content">
-                      Form received.
-                    </p>
-                  </div>
-                  <input
-                    className="submit-btn NoWrap grpelem"
-                    id="u753-17"
-                    type="submit"
-                    value="Submit"
-                    tabIndex={4}
-                  />
-                  {/* state-based BG images */}
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu758"
-                    data-required="false">
-                    {/* none box */}
-                    <span
-                      className="fld-textarea actAsDiv clearfix grpelem"
-                      id="u759-4">
-                      {/* content */}
-                      <textarea
-                        className="wrapped-input"
-                        id="widgetu758_input"
-                        name="custom_U758"
-                        tabIndex={3}
-                        defaultValue={''}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu758_prompt"
-                        htmlFor="widgetu758_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu758_prompt_0_content">
-                          Enter Your Message
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                </form>
-              </div>
-              <div
-                className="clearfix colelem shared_content"
-                id="pu799"
-                data-content-guid="pu799_content">
-                {/* group */}
-                <div className="browser_width grpelem" id="u799-bw">
-                  <div id="u799">{/* simple frame */}</div>
-                </div>
-                <div className="browser_width grpelem" id="u802-bw">
-                  <div className="museBGSize" id="u802">
-                    {/* group */}
-                    <Fade duration={500} up>
-                      <div className="clearfix" id="u802_align_to_page">
-                        <div
-                          className="experience clearfix grpelem"
-                          id="u821-6">
-                          {/* content */}
-                          <p id="u821-2">35 Years of Expirience</p>
-                          <p id="u821-4">
-                            Vestibulum ultrices id ipsum in lacinia. Nunc diam
-                            nibh, tempus sed nunc et, ultrices facilisis velit.
-                            Morbi cursus ipsum a arcu ultricies tempor.
-                          </p>
-                        </div>
-                      </div>
-                    </Fade>
                   </div>
                 </div>
               </div>
@@ -548,28 +404,13 @@ class Home extends React.Component {
                             </span>
                           </p>
                           <p id="u875-5">
-                            <span id="u875-4">CORPORATE LAW</span>
+                            <span id="u875-4">E1/E2 Visas</span>
                           </p>
                           <p id="u875-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Companies that conduct international trade business
+                            or make Investments in the U.S.
                           </p>
-                          <p id="u875-10">
-                            <span id="u875-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u883">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u881-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u881-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                         <div
                           className="transition shadow clearfix colelem shared_content"
@@ -595,28 +436,13 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1001-5">
-                            <span id="u1001-4">FAMILY LAW</span>
+                            <span id="u1001-4">O1 VISAS</span>
                           </p>
                           <p id="u1001-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Possession of extraordinary abilities in the
+                            sciences, arts, education, business, or athletics{' '}
                           </p>
-                          <p id="u1001-10">
-                            <span id="u1001-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u1004">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u1005-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u1005-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                       </div>
                       <div className="clearfix grpelem" id="pu950-12">
@@ -642,28 +468,13 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u950-5">
-                            <span id="u950-4">BUSINESS TRANSACTION</span>
+                            <span id="u950-4">H1B VISAS</span>
                           </p>
                           <p id="u950-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Possession of a bachelor or higher degree, or
+                            equivalent work experience.
                           </p>
-                          <p id="u950-10">
-                            <span id="u950-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u953">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u954-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u954-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                         <div
                           className="transition shadow clearfix colelem shared_content"
@@ -686,28 +497,15 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1018-5">
-                            <span id="u1018-4">&nbsp;COMPETITION LAW</span>
-                          </p>
-                          <p id="u1018-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
-                          </p>
-                          <p id="u1018-10">
-                            <span id="u1018-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u1021">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u1022-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u1022-2">
-                                  READ MORE
-                                </span>
-                              </span>
+                            <span id="u1018-4">
+                              EMPLOYMENT-BASED GREEN CARD
                             </span>
                           </p>
+                          <p id="u1018-7">
+                            Various application categories through company
+                            sponsorship or self-sponsorship.{' '}
+                          </p>
+                          {readMore}
                         </div>
                       </div>
                       <div
@@ -739,28 +537,13 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u967-5">
-                            <span id="u967-4">BANKING AND FINANCE</span>
+                            <span id="u967-4">J1 VISAS</span>
                           </p>
                           <p id="u967-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Short term internship or training for those having a
+                            foreign degree.{' '}
                           </p>
-                          <p id="u967-10">
-                            <span id="u967-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u970">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u971-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u971-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                         <div
                           className="transition shadow clearfix colelem shared_content"
@@ -783,28 +566,13 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1035-5">
-                            <span id="u1035-4">TRANSPORT LAW</span>
+                            <span id="u1035-4">FAMILY-BASED GREEN CARD</span>
                           </p>
                           <p id="u1035-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Having a U.S. citizen or green card holder spouse,
+                            parent, child, or sibling.
                           </p>
-                          <p id="u1035-10">
-                            <span id="u1035-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u1038">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u1039-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u1039-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                       </div>
                       <div className="clearfix grpelem" id="pu984-12">
@@ -830,28 +598,12 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u984-5">
-                            <span id="u984-4">INTELLECTUAL PROPERTY</span>
+                            <span id="u984-4">L1 VISAS</span>
                           </p>
                           <p id="u984-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            Transfer of an employee of a foreign group company.{' '}
                           </p>
-                          <p id="u984-10">
-                            <span id="u984-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u987">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u988-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u988-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          {readMore}
                         </div>
                         <div
                           className="transition shadow clearfix colelem shared_content"
@@ -874,378 +626,20 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1052-5">
-                            <span id="u1052-4">CRIMINAL LAW</span>
+                            <span id="u1052-4">CITIZENSHIP</span>
                           </p>
                           <p id="u1052-7">
-                            Etiam commodo mollis felis hendrerit auctor. Mauris
-                            eu urna bibendum tortor molestie tincidunt
+                            The last stop of the immigration journey.
                           </p>
-                          <p id="u1052-10">
-                            <span id="u1052-8">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u1055">
-                              {/* content */}
-                              <span
-                                className="actAsDiv rounded-corners transition clearfix excludeFromNormalFlow"
-                                id="u1056-4">
-                                {/* content */}
-                                <span className="actAsPara" id="u1056-2">
-                                  READ MORE
-                                </span>
-                              </span>
-                            </span>
-                          </p>
+                          <p id="u1052-7" />
+                          {readMore}
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="clearfix colelem" id="pu1088">
-                {/* group */}
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u1088-bw"
-                  data-content-guid="u1088-bw_content">
-                  <div id="u1088">
-                    {/* column */}
-                    <div className="clearfix" id="u1088_align_to_page">
-                      <div
-                        className="clearfix colelem shared_content"
-                        id="pu1113-4"
-                        data-content-guid="pu1113-4_content">
-                        {/* group */}
-                        <div className="clearfix grpelem" id="u1113-4">
-                          {/* content */}
-                          <p>Performance</p>
-                        </div>
-                        <div
-                          className="whychooseus clearfix grpelem shared_content"
-                          id="u1116-4"
-                          data-content-guid="u1116-4_content">
-                          {/* content */}
-                          <h2>-Why Choose Us-</h2>
-                        </div>
-                      </div>
-                      <div className="clearfix colelem" id="pu1119">
-                        {/* group */}
-                        <div
-                          className="performanceimage museBGSize grpelem shared_content"
-                          id="u1119"
-                          data-content-guid="u1119_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="performance clearfix grpelem shared_content"
-                          id="u1130-21"
-                          data-content-guid="u1130-21_content">
-                          {/* content */}
-                          <p id="u1130-2">High Quality Performance</p>
-                          <p id="u1130-5">
-                            <span id="u1130-3">​</span>
-                            <span
-                              className="actAsInlineDiv normal_text"
-                              id="u1131">
-                              {/* content */}
-                              <span
-                                className="actAsDiv excludeFromNormalFlow"
-                                id="u1132">
-                                {/* simple frame */}
-                              </span>
-                            </span>
-                          </p>
-                          <p id="u1130-7">
-                            Vivamus ante est, tempus eget suscipit sit amet,
-                            laoreet a dui. Fusce aliquet arcu eget sapien varius
-                            fringilla. Suspendisse porttitor efficitur
-                            facilisis. Quisque a condimentum justo. Donec sed
-                            tristique augue. In hac habitasse platea dictumst.
-                          </p>
-                          <p id="u1130-8">&nbsp;</p>
-                          <p id="u1130-10">
-                            Nam id enim eleifend turpis efficitur vestibulum.
-                          </p>
-                          <p id="u1130-11">&nbsp;</p>
-                          <p id="u1130-13">
-                            Donec placerat libero vitae sem placerat
-                            pellentesque.
-                          </p>
-                          <p id="u1130-14">&nbsp;</p>
-                          <p id="u1130-16">
-                            Vivamus mauris tellus, tristique nec rhoncus
-                          </p>
-                          <p id="u1130-17">&nbsp;</p>
-                          <p id="u1130-18">&nbsp;</p>
-                          <p id="u1130-19">&nbsp;</p>
-                        </div>
-                        <a
-                          className="nonblock nontext transition clearfix grpelem shared_content"
-                          id="u1232-4"
-                          href="attorneys.html"
-                          data-content-guid="u1232-4_content">
-                          {/* content */}
-                          <p id="u1232-2">Meet Our Team</p>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u1210-bw"
-                  data-content-guid="u1210-bw_content">
-                  <div id="u1210">{/* simple frame */}</div>
-                </div>
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u1213-bw"
-                  data-content-guid="u1213-bw_content">
-                  <div className="museBGSize" id="u1213">
-                    {/* group */}
-                    <div className="clearfix" id="u1213_align_to_page">
-                      <div
-                        className="rgba-background chart1 transition clearfix grpelem shared_content"
-                        id="u1139-6"
-                        data-content-guid="u1139-6_content">
-                        {/* content */}
-                        <p id="u1139-2">1200</p>
-                        <p id="u1139-4">CASES</p>
-                      </div>
-                      <div
-                        className="rgba-background chart2 transition clearfix grpelem shared_content"
-                        id="u1145-6"
-                        data-content-guid="u1145-6_content">
-                        {/* content */}
-                        <p id="u1145-2">678</p>
-                        <p id="u1145-4">CASE STUDIES</p>
-                      </div>
-                      <div
-                        className="rgba-background chart3 transition clearfix grpelem shared_content"
-                        id="u1142-6"
-                        data-content-guid="u1142-6_content">
-                        {/* content */}
-                        <p id="u1142-2">790</p>
-                        <p id="u1142-4">CLIENTS</p>
-                      </div>
-                      <div
-                        className="rgba-background chart4 transition clearfix grpelem shared_content"
-                        id="u1148-6"
-                        data-content-guid="u1148-6_content">
-                        {/* content */}
-                        <p id="u1148-2">3456</p>
-                        <p id="u1148-4">SOLVED CASES</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u1167-bw"
-                  data-content-guid="u1167-bw_content">
-                  <div id="u1167">{/* simple frame */}</div>
-                </div>
-                <div
-                  className="browser_width grpelem shared_content"
-                  id="u1170-bw"
-                  data-content-guid="u1170-bw_content">
-                  <div className="museBGSize" id="u1170">
-                    {/* group */}
-                    <div className="clearfix" id="u1170_align_to_page">
-                      <div className="clearfix grpelem" id="u1243-12">
-                        {/* content */}
-                        <p id="u1243-2">Free Case Evaluation</p>
-                        <p id="u1243-5">
-                          <span id="u1243-3">​</span>
-                          <span
-                            className="actAsInlineDiv normal_text"
-                            id="u1244">
-                            {/* content */}
-                            <span
-                              className="actAsDiv excludeFromNormalFlow"
-                              id="u1245">
-                              {/* simple frame */}
-                            </span>
-                          </span>
-                        </p>
-                        <p id="u1243-7">
-                          Vivamus ante est, tempus eget suscipit sit amet,
-                          laoreet a dui. Fusce aliquet arcu eget sapien varius
-                          fringilla. Suspendisse porttitor efficitur facilisis.
-                          Quisque a condimentum justo. Donec sed tristique
-                          augue. In hac habitasse platea dictumst.
-                        </p>
-                        <p id="u1243-8">&nbsp;</p>
-                        <p id="u1243-10">
-                          Etiam commodo mollis felis hendrerit auctor. Mauris eu
-                          urna bibendum tortor molestie tincidunt
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <form
-                  className="form-grp clearfix grpelem"
-                  id="widgetu1252"
-                  method="post"
-                  encType="multipart/form-data"
-                  action="scripts/form-u1252.php">
-                  {/* none box */}
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu1271"
-                    data-required="true">
-                    {/* none box */}
-                    <span
-                      className="fld-input NoWrap actAsDiv clearfix grpelem"
-                      id="u1272-4">
-                      {/* content */}
-                      <input
-                        className="wrapped-input"
-                        type="text"
-                        spellCheck="false"
-                        id="widgetu1271_input"
-                        name="custom_U1271"
-                        tabIndex={5}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu1271_prompt"
-                        htmlFor="widgetu1271_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu1271_prompt_0_content">
-                          Enter Name
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu1288"
-                    data-required="true"
-                    data-type="email">
-                    {/* none box */}
-                    <span
-                      className="fld-input NoWrap actAsDiv clearfix grpelem"
-                      id="u1290-4">
-                      {/* content */}
-                      <input
-                        className="wrapped-input"
-                        type="email"
-                        spellCheck="false"
-                        id="widgetu1288_input"
-                        name="Email"
-                        tabIndex={6}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu1288_prompt"
-                        htmlFor="widgetu1288_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu1288_prompt_0_content">
-                          Enter Email
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                  <div className="clearfix grpelem" id="u1261-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u1261-4_0_content">
-                      Submitting Form...
-                    </p>
-                  </div>
-                  <div className="clearfix grpelem" id="u1287-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u1287-4_0_content">
-                      The server encountered an error.
-                    </p>
-                  </div>
-                  <div className="clearfix grpelem" id="u1292-4">
-                    {/* content */}
-                    <p
-                      className="shared_content"
-                      data-content-guid="u1292-4_0_content">
-                      Form received.
-                    </p>
-                  </div>
-                  <input
-                    className="submit-btn NoWrap grpelem"
-                    id="u1270-17"
-                    type="submit"
-                    value="Submit"
-                    tabIndex={9}
-                  />
-                  {/* state-based BG images */}
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu1279"
-                    data-required="true">
-                    {/* none box */}
-                    <span
-                      className="fld-textarea actAsDiv clearfix grpelem"
-                      id="u1282-4">
-                      {/* content */}
-                      <textarea
-                        className="wrapped-input"
-                        id="widgetu1279_input"
-                        name="custom_U1279"
-                        tabIndex={8}
-                        defaultValue={''}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu1279_prompt"
-                        htmlFor="widgetu1279_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu1279_prompt_0_content">
-                          Enter Your Message
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                  <div
-                    className="fld-grp clearfix grpelem"
-                    id="widgetu1436"
-                    data-required="true">
-                    {/* none box */}
-                    <span
-                      className="fld-input NoWrap actAsDiv clearfix grpelem"
-                      id="u1439-4">
-                      {/* content */}
-                      <input
-                        className="wrapped-input"
-                        type="tel"
-                        spellCheck="false"
-                        id="widgetu1436_input"
-                        name="custom_U1436"
-                        tabIndex={7}
-                      />
-                      <label
-                        className="wrapped-input fld-prompt"
-                        id="widgetu1436_prompt"
-                        htmlFor="widgetu1436_input">
-                        <span
-                          className="actAsPara shared_content"
-                          data-content-guid="widgetu1436_prompt_0_content">
-                          Enter Phone Number
-                        </span>
-                      </label>
-                    </span>
-                  </div>
-                </form>
-                <a
-                  className="anchor_item grpelem shared_content"
-                  id="news"
-                  data-content-guid="news_content"
-                />
-              </div>
+
               <div className="clearfix colelem" id="pu1467">
                 {/* group */}
                 <div
@@ -1257,14 +651,20 @@ class Home extends React.Component {
                     <div className="clearfix" id="u1467_align_to_page">
                       <div className="clearfix grpelem" id="u1470-4">
                         {/* content */}
-                        <p>News</p>
+                        <p>Happening</p>
                       </div>
                       <div
                         className="news clearfix grpelem shared_content"
                         id="u1473-4"
                         data-content-guid="u1473-4_content">
                         {/* content */}
-                        <p>-Latest Cases Solved-</p>
+                        <p>
+                          <a
+                            href="/blog"
+                            style={{textDecoration: 'none', color: 'black'}}>
+                            -News-
+                          </a>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1659,93 +1059,6 @@ class Home extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="browser_width colelem" id="u1625-bw">
-                <div id="u1625">
-                  {/* column */}
-                  <div className="clearfix" id="u1625_align_to_page">
-                    <div
-                      className="ourclients clearfix colelem shared_content"
-                      id="u1838-9"
-                      data-content-guid="u1838-9_content">
-                      {/* content */}
-                      <p id="u1838-2">Our Clients</p>
-                      <p id="u1838-5">
-                        <span id="u1838-3">​</span>
-                        <span className="actAsInlineDiv normal_text" id="u1839">
-                          {/* content */}
-                          <span
-                            className="actAsDiv excludeFromNormalFlow"
-                            id="u1840">
-                            {/* simple frame */}
-                          </span>
-                        </span>
-                      </p>
-                      <p id="u1838-7">
-                        Vivamus ante est, tempus eget suscipit sit amet, laoreet
-                        a dui. Fusce aliquet arcu eget sapien varius fringilla.
-                        Suspendisse porttitor efficitur facilisis.
-                      </p>
-                    </div>
-                    <div className="clearfix colelem" id="pu1680">
-                      {/* group */}
-                      <div
-                        className="clearfix grpelem shared_content"
-                        id="u1680"
-                        data-content-guid="u1680_content">
-                        {/* group */}
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1628"
-                          data-content-guid="u1628_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1659"
-                          data-content-guid="u1659_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1668"
-                          data-content-guid="u1668_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1671"
-                          data-content-guid="u1671_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1674"
-                          data-content-guid="u1674_content">
-                          {/* simple frame */}
-                        </div>
-                        <div
-                          className="museBGSize grpelem shared_content"
-                          id="u1677"
-                          data-content-guid="u1677_content">
-                          {/* simple frame */}
-                        </div>
-                      </div>
-                      <div
-                        className="grpelem shared_content"
-                        id="u2152"
-                        data-content-guid="u2152_content">
-                        {/* custom html */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="verticalspacer"
-                data-offset-top={5406}
-                data-content-above-spacer={5406}
-                data-content-below-spacer={322}
-              />
               <Footer />
             </div>
           </div>
