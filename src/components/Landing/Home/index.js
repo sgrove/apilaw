@@ -7,6 +7,14 @@ import Footer from '../Footer'
 import headerBg from '../../../images/liberty.jpg'
 import {Fade, Flip, Rotate, Zoom} from 'react-reveal'
 
+const learnMoreStyle = {
+  color: '#bfa16a',
+  lineHeight: '54px',
+  fontFamily: 'allura, sans-serif',
+  fontSize: '36px',
+  textDecoration: 'none',
+}
+
 const readMore = (
   <p id="u875-10">
     <span id="u875-8">​</span>
@@ -340,7 +348,9 @@ class Home extends React.Component {
                         <p id="u715-8">&nbsp;</p>
                         <p id="u715-11">&nbsp;</p>
                         <p id="u715-13">
-                          <a href="/about"> Learn More</a>
+                          <a href="/about" style={learnMoreStyle}>
+                            Learn More
+                          </a>
                         </p>
                       </div>
                       <div
@@ -508,8 +518,8 @@ class Home extends React.Component {
                             </span>
                           </p>
                           <p id="u1018-7">
-                            Various application categories through company
-                            sponsorship or self-sponsorship.{' '}
+                            Applications through company sponsorship or
+                            self-sponsorship.
                           </p>
                           {readMore}
                         </div>
@@ -704,60 +714,6 @@ class Home extends React.Component {
                           {/* group */}
                           <div
                             className="clearfix grpelem shared_content"
-                            id="u1695"
-                            data-content-guid="u1695_content">
-                            {/* group */}
-                            <div className="clearfix grpelem" id="u1699">
-                              {/* column */}
-                              <div
-                                className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1701">
-                                {/* group */}
-                                <div className="clearfix grpelem" id="u1702-6">
-                                  {/* content */}
-                                  <p id="u1702-2">20</p>
-                                  <p id="u1702-4">APR</p>
-                                </div>
-                              </div>
-                              <div className="clearfix colelem" id="u1700-9">
-                                {/* content */}
-                                <p id="u1700-2">
-                                  <span id="u1700">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
-                                </p>
-                                <p id="u1700-4">
-                                  <span id="u1700-3">Posted by Admin</span>
-                                </p>
-                                <p id="u1700-5">&nbsp;</p>
-                                <p id="u1700-7">
-                                  Proin arcu justo, dictum at quam vitae,
-                                  malesuada viverra ex. Phasellus congue rutrum
-                                  diam, ut tristique felis commodo et. Ut ac
-                                  erat quis augue congue dignissim. Donec
-                                  condimentum sapien in ligula porta, sed mollis
-                                  lacus ultricies.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="clearfix grpelem" id="u1696">
-                              {/* group */}
-                              <div
-                                className="rounded-corners clearfix grpelem"
-                                id="u1697">
-                                {/* group */}
-                                <div className="grpelem" id="u1698">
-                                  {/* custom html */}
-                                  <i
-                                    className="fa fa-university"
-                                    aria-hidden="true"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="clearfix grpelem shared_content"
                             id="u1703"
                             data-content-guid="u1703_content">
                             {/* group */}
@@ -769,26 +725,22 @@ class Home extends React.Component {
                                 {/* group */}
                                 <div className="clearfix grpelem" id="u1706-6">
                                   {/* content */}
-                                  <p id="u1706-2">05</p>
-                                  <p id="u1706-4">AUG</p>
+                                  <p id="u1706-2">01</p>
+                                  <p id="u1706-4">JAN</p>
                                 </div>
                               </div>
                               <div className="clearfix colelem" id="u1707-9">
                                 {/* content */}
                                 <p id="u1707-2">
-                                  <span id="u1707">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
+                                  <span id="u1707">A new year, a new firm</span>
                                 </p>
                                 <p id="u1707-4">
-                                  <span id="u1707-3">Posted by Admin</span>
+                                  <span id="u1707-3">Posted by Yan Li</span>
                                 </p>
                                 <p id="u1707-5">&nbsp;</p>
                                 <p id="u1707-7">
-                                  &nbsp;Etiam aliquet odio in enim pulvinar
-                                  molestie. Nullam vel odio dictum, viverra est
-                                  quis, suscipit dui. Cras tellus augue,
-                                  elementum eu ornare eget, eleifend quis enim.
+                                  2018 marks the founding of API Law, a new
+                                  family and business immigration firm
                                 </p>
                               </div>
                             </div>
@@ -808,258 +760,7 @@ class Home extends React.Component {
                               </div>
                             </div>
                           </div>
-                          <div
-                            className="clearfix grpelem shared_content"
-                            id="u1687"
-                            data-content-guid="u1687_content">
-                            {/* group */}
-                            <div className="clearfix grpelem" id="u1688">
-                              {/* column */}
-                              <div
-                                className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1691">
-                                {/* group */}
-                                <div className="clearfix grpelem" id="u1690-6">
-                                  {/* content */}
-                                  <p id="u1690-2">18</p>
-                                  <p id="u1690-4">DEC</p>
-                                </div>
-                              </div>
-                              <div className="clearfix colelem" id="u1689-9">
-                                {/* content */}
-                                <p id="u1689-2">
-                                  <span id="u1689">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
-                                </p>
-                                <p id="u1689-4">
-                                  <span id="u1689-3">Posted by Admin</span>
-                                </p>
-                                <p id="u1689-5">&nbsp;</p>
-                                <p id="u1689-7">
-                                  &nbsp;Cras viverra posuere tortor, at
-                                  condimentum elit. Donec a neque tristique,
-                                  vestibulum lorem vitae, volutpat leo. Integer
-                                  lorem mi, sollicitudin in nunc a, bibendum
-                                  maximus purus. Vivamus placerat facilisis
-                                </p>
-                              </div>
-                            </div>
-                            <div className="clearfix grpelem" id="u1692">
-                              {/* group */}
-                              <div
-                                className="rounded-corners clearfix grpelem"
-                                id="u1694">
-                                {/* group */}
-                                <div className="grpelem" id="u1693">
-                                  {/* custom html */}
-                                  <i
-                                    className="fa fa-university"
-                                    aria-hidden="true"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
-                      </div>
-                      <div
-                        className="Container invi clearfix grpelem"
-                        id="u1821">
-                        {/* group */}
-                        <div
-                          className="clearfix grpelem shared_content"
-                          id="u1683"
-                          data-content-guid="u1683_content">
-                          {/* group */}
-                          <div
-                            className="clearfix grpelem shared_content"
-                            id="u1554"
-                            data-content-guid="u1554_content">
-                            {/* group */}
-                            <div className="clearfix grpelem" id="u1498">
-                              {/* column */}
-                              <div
-                                className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1476">
-                                {/* group */}
-                                <div className="clearfix grpelem" id="u1490-6">
-                                  {/* content */}
-                                  <p id="u1490-2">20</p>
-                                  <p id="u1490-4">APR</p>
-                                </div>
-                              </div>
-                              <div className="clearfix colelem" id="u1495-9">
-                                {/* content */}
-                                <p id="u1495-2">
-                                  <span id="u1495">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
-                                </p>
-                                <p id="u1495-4">
-                                  <span id="u1495-3">Posted by Admin</span>
-                                </p>
-                                <p id="u1495-5">&nbsp;</p>
-                                <p id="u1495-7">
-                                  Proin arcu justo, dictum at quam vitae,
-                                  malesuada viverra ex. Phasellus congue rutrum
-                                  diam, ut tristique felis commodo et. Ut ac
-                                  erat quis augue congue dignissim. Donec
-                                  condimentum sapien in ligula porta, sed mollis
-                                  lacus ultricies.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="clearfix grpelem" id="u1551">
-                              {/* group */}
-                              <div
-                                className="rounded-corners clearfix grpelem"
-                                id="u1541">
-                                {/* group */}
-                                <div className="grpelem" id="u1544">
-                                  {/* custom html */}
-                                  <i
-                                    className="fa fa-university"
-                                    aria-hidden="true"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="clearfix grpelem shared_content"
-                            id="u1557"
-                            data-content-guid="u1557_content">
-                            {/* group */}
-                            <div className="clearfix grpelem" id="u1561">
-                              {/* column */}
-                              <div
-                                className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1563">
-                                {/* group */}
-                                <div className="clearfix grpelem" id="u1564-6">
-                                  {/* content */}
-                                  <p id="u1564-2">05</p>
-                                  <p id="u1564-4">AUG</p>
-                                </div>
-                              </div>
-                              <div className="clearfix colelem" id="u1562-9">
-                                {/* content */}
-                                <p id="u1562-2">
-                                  <span id="u1562">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
-                                </p>
-                                <p id="u1562-4">
-                                  <span id="u1562-3">Posted by Admin</span>
-                                </p>
-                                <p id="u1562-5">&nbsp;</p>
-                                <p id="u1562-7">
-                                  &nbsp;Etiam aliquet odio in enim pulvinar
-                                  molestie. Nullam vel odio dictum, viverra est
-                                  quis, suscipit dui. Cras tellus augue,
-                                  elementum eu ornare eget, eleifend quis enim.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="clearfix grpelem" id="u1558">
-                              {/* group */}
-                              <div
-                                className="rounded-corners clearfix grpelem"
-                                id="u1559">
-                                {/* group */}
-                                <div className="grpelem" id="u1560">
-                                  {/* custom html */}
-                                  <i
-                                    className="fa fa-university"
-                                    aria-hidden="true"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            className="clearfix grpelem shared_content"
-                            id="u1591"
-                            data-content-guid="u1591_content">
-                            {/* group */}
-                            <div className="clearfix grpelem" id="u1595">
-                              {/* column */}
-                              <div
-                                className="museBGSize transition shadow rgba-background clearfix colelem"
-                                id="u1596">
-                                {/* group */}
-                                <div className="clearfix grpelem" id="u1597-6">
-                                  {/* content */}
-                                  <p id="u1597-2">18</p>
-                                  <p id="u1597-4">DEC</p>
-                                </div>
-                              </div>
-                              <div className="clearfix colelem" id="u1598-9">
-                                {/* content */}
-                                <p id="u1598-2">
-                                  <span id="u1598">
-                                    The Case Thomas Grow Successfully Closed
-                                  </span>
-                                </p>
-                                <p id="u1598-4">
-                                  <span id="u1598-3">Posted by Admin</span>
-                                </p>
-                                <p id="u1598-5">&nbsp;</p>
-                                <p id="u1598-7">
-                                  &nbsp;Cras viverra posuere tortor, at
-                                  condimentum elit. Donec a neque tristique,
-                                  vestibulum lorem vitae, volutpat leo. Integer
-                                  lorem mi, sollicitudin in nunc a, bibendum
-                                  maximus purus. Vivamus placerat facilisis
-                                </p>
-                              </div>
-                            </div>
-                            <div className="clearfix grpelem" id="u1592">
-                              {/* group */}
-                              <div
-                                className="rounded-corners clearfix grpelem"
-                                id="u1594">
-                                {/* group */}
-                                <div className="grpelem" id="u1593">
-                                  {/* custom html */}
-                                  <i
-                                    className="fa fa-university"
-                                    aria-hidden="true"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="popup_anchor">
-                    <div
-                      className="PamphletPrevButton PamphletLightboxPart popup_element clearfix"
-                      id="u1776">
-                      {/* group */}
-                      <div
-                        className="transition clearfix grpelem shared_content"
-                        id="u1777-4"
-                        data-content-guid="u1777-4_content">
-                        {/* content */}
-                        <p id="u1777-2">&lt;</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="popup_anchor">
-                    <div
-                      className="PamphletNextButton PamphletLightboxPart popup_element transition clearfix"
-                      id="u1778">
-                      {/* group */}
-                      <div
-                        className="transition clearfix grpelem shared_content"
-                        id="u1779-4"
-                        data-content-guid="u1779-4_content">
-                        {/* content */}
-                        <p id="u1779-2">&gt;</p>
                       </div>
                     </div>
                   </div>
@@ -1067,80 +768,6 @@ class Home extends React.Component {
               </div>
               <Footer />
             </div>
-          </div>
-          <div className="preload_images">
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u753-17-r.png?crc=238622133"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u753-17-m.png?crc=238622133"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u753-17-fs.png?crc=392315850"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u1270-17-r.png?crc=3842467463"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u1270-17-m.png?crc=3842467463"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/u1270-17-fs.png?crc=509054720"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news1-u1701-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news2-u1705-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news3-u1691-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news4-u1476-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news5-u1563-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
-            <img
-              className="preload temp_no_img_src"
-              data-orig-src="images/news6-u1596-r-fr.png?crc=3855750308"
-              alt
-              src="images/blank.gif?crc=4208392903"
-            />
           </div>
         </div>
         <div className="breakpoint" id="bp_400" data-max-width={400}>
