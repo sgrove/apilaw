@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import Attorneys from '../components/Landing/Attorneys'
+import About from '../components/Landing/About'
 import {Switch, Route} from 'react-router-dom'
 import globalCSS from '../css/site_global.css'
 import attorneysCSS from '../css/attorneys.css'
@@ -29,7 +29,7 @@ class LandingIndex extends React.Component {
           />
         </Helmet>
         <Switch>
-          <Route exact path="/attorneys" render={() => <Attorneys />} />
+          <Route exact path="/about" render={() => <About />} />
         </Switch>
       </div>
     )
