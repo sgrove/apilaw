@@ -489,7 +489,7 @@ class Header extends React.Component {
                 <p
                   className="shared_content"
                   data-content-guid="u2068-4_0_content">
-                  Practice
+                  Services
                 </p>
               </div>
             </a>
