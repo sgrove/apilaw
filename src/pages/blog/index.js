@@ -152,7 +152,7 @@ class BlogIndex extends React.Component {
           />
           <div className="clearfix grpelem" id="u16381-4">
             {/* content */}
-            <p>Our Thoughts</p>
+            <p>{}</p>
           </div>
           <div
             className="whoweare clearfix grpelem shared_content wow fadeInUp"
@@ -160,7 +160,7 @@ class BlogIndex extends React.Component {
             data-content-guid="u16302-4_content"
             style={{visibility: 'visible'}}>
             {/* content */}
-            <h2>The Journal</h2>
+            <h2>News</h2> {/* ' */}
           </div>
         </div>
         <div className="clearfix colelem" id="pu17083">
