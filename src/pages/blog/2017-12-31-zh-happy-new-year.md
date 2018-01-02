@@ -1,21 +1,33 @@
 ---
 templateKey: blog-post
-path: happy-new-year
-title: Happy New Year
-subtitle: 新年快乐！
-lang: zh
-date: 2017-12-31T21:17:47.095Z
-description: |-
-  english version
-  中文呢？
+path: welcome-to-api-law-office
+title: Welcome to API Law Office
+subtitle: 'Hello, world'
+lang: en
+date: 2018-01-01T13:17:47-08:00
+description: >-
+  Happy New Year, and welcome to API Law Office!
+
+
+  Today, we launched this brand new immigration law firm, with the passion to
+  deliver quality legal services to all companies and individuals who strive for
+  their success and life in the U.S. We provide dedicated support to our clients
+  in acquiring U.S. visa, green card, and citizenship. 
+
+
+  We will deliver the most up-to-date immigration news on this News page. We
+  encourage you to contact us with any questions or suggestions.
+
+
+  We hope you have a wonderful year in 2018, and look forward to the opportunity
+  working with you in the near future!
 ---
-## 大家好，
+## Happy New Year, and welcome to API Law Office!
 
-新年快乐！[2018](https://en.wikipedia.org/wiki/2018)年更好。**发财**～～～～～！！！！
+Today, we launched this brand new immigration law firm, with the passion to deliver quality legal services to all companies and individuals who strive for their success and life in the U.S. We provide dedicated support to our clients in acquiring U.S. visa, green card, and citizenship. 
 
-1. one
-2. two
+We will deliver the most up-to-date immigration news on this News page. We encourage you to contact us with any questions or suggestions. 
 
-![tanuki jyanai!](/img/307fa4f7f37831684fe3e3ee33ab97d3.png)
+We hope you have a wonderful year in 2018, and look forward to the opportunity working with you in the near future! 
 
-the end...
+![Happy New Year Fireworks](/img/fireworks.jpg)
