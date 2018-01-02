@@ -418,10 +418,7 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u891">
                                 {/* custom html */}
-                                <i
-                                  className="fa fa-university"
-                                  aria-hidden="true"
-                                />
+                                <i className="fa fa-money" aria-hidden="true" />
                               </span>
                             </span>
                           </p>
@@ -450,7 +447,7 @@ class Home extends React.Component {
                                 id="u1965">
                                 {/* custom html */}
                                 <i
-                                  className="fa fa-handshake-o"
+                                  className="fa fa-trophy"
                                   aria-hidden="true"
                                 />
                               </span>
@@ -484,7 +481,10 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u1912">
                                 {/* custom html */}
-                                <i className="fa fa-money" aria-hidden="true" />
+                                <i
+                                  className="fa fa-graduation-cap"
+                                  aria-hidden="true"
+                                />
                               </span>
                             </span>
                             <span />
@@ -513,7 +513,10 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u1948">
                                 {/* custom html */}
-                                <i className="fa fa-globe" aria-hidden="true" />
+                                <i
+                                  className="fa fa-handshake-o"
+                                  aria-hidden="true"
+                                />
                               </span>
                             </span>
                             <span />
@@ -551,7 +554,7 @@ class Home extends React.Component {
                                 id="u1924">
                                 {/* custom html */}
                                 <i
-                                  className="fa fa-diamond"
+                                  className="fa fa-line-chart"
                                   aria-hidden="true"
                                 />
                               </span>
@@ -582,7 +585,7 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u1977">
                                 {/* custom html */}
-                                <i className="fa fa-truck" aria-hidden="true" />
+                                <i className="fa fa-users" aria-hidden="true" />
                               </span>
                             </span>
                             <span />
@@ -614,7 +617,10 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u1936">
                                 {/* custom html */}
-                                <i className="fa fa-users" aria-hidden="true" />
+                                <i
+                                  className="fa fa-building"
+                                  aria-hidden="true"
+                                />
                               </span>
                             </span>
                             <span />
@@ -642,7 +648,7 @@ class Home extends React.Component {
                                 className="actAsDiv excludeFromNormalFlow"
                                 id="u1989">
                                 {/* custom html */}
-                                <i className="fa fa-gavel" aria-hidden="true" />
+                                <i className="fa fa-globe" aria-hidden="true" />
                               </span>
                             </span>
                             <span />
