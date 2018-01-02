@@ -1277,52 +1277,6 @@ class Home extends React.Component {
               </div>
               <div
                 className="clearfix colelem temp_no_id"
-                data-orig-id="pu1210">
-                {/* group */}
-                <span
-                  className="browser_width grpelem placeholder"
-                  data-placeholder-for="u1210-bw_content">
-                  {/* placeholder node */}
-                </span>
-                <div
-                  className="browser_width grpelem temp_no_id"
-                  data-orig-id="u1213-bw">
-                  <div className="museBGSize temp_no_id" data-orig-id="u1213">
-                    {/* column */}
-                    <div
-                      className="clearfix temp_no_id"
-                      data-orig-id="u1213_align_to_page">
-                      <span
-                        className="rgba-background chart1 transition clearfix colelem placeholder"
-                        data-placeholder-for="u1139-6_content">
-                        {/* placeholder node */}
-                      </span>
-                      <span
-                        className="rgba-background chart3 transition clearfix colelem placeholder"
-                        data-placeholder-for="u1142-6_content">
-                        {/* placeholder node */}
-                      </span>
-                      <span
-                        className="rgba-background chart2 transition clearfix colelem placeholder"
-                        data-placeholder-for="u1145-6_content">
-                        {/* placeholder node */}
-                      </span>
-                      <span
-                        className="rgba-background chart4 transition clearfix colelem placeholder"
-                        data-placeholder-for="u1148-6_content">
-                        {/* placeholder node */}
-                      </span>
-                      <span
-                        className="anchor_item colelem placeholder"
-                        data-placeholder-for="news_content">
-                        {/* placeholder node */}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="clearfix colelem temp_no_id"
                 data-orig-id="pppu1467">
                 {/* group */}
                 <div
