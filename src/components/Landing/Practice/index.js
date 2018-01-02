@@ -56,7 +56,7 @@ class Practice extends React.Component {
           id="u46719-12"
           data-content-guid="u46719-12_content">
           {/* content */}
-          <p id="u46719-2">High Quality Services</p>
+          <p id="u46719-2">Understand Your Options</p>
           <p id="u46719-5">
             <span id="u46719-3">​</span>
             <span className="actAsInlineDiv normal_text" id="u46720">
@@ -68,10 +68,39 @@ class Practice extends React.Component {
           </p>
           <p id="u46719-8">
             <span id="u46719-6">
-              Vivamus ante est, tempus eget suscipit sit amet, laoreet a dui.
-              Fusce aliquet arcu eget sapien varius fringilla. Suspendisse
-              porttitor efficitur facilisis. Quisque a condimentum justo. Donec
-              sed tristique augue. In hac habitasse platea dictumst.
+              There are more than ___ types of visas and __ categories of green
+              card application. Each one has its own requirements, benefits and
+              restrictions. We will help you find the one that is most suitable
+              to your situation, and guide you through the application process.
+              Our services include the followings:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  Providing consultation on your options and building
+                  application strategies.
+                </li>
+                <li>
+                  Gathering and drafting necessary application forms and
+                  supporting documents.
+                </li>
+                <li>
+                  Submitting your application to the government and be the point
+                  of contact for your case.
+                </li>
+                <li>
+                  Keeping track of your case progress and communicating with the
+                  government to facilitate the adjudication of your case.
+                </li>
+                <li>
+                  Providing consultation before your interview with the
+                  government, if an interview is required.
+                </li>
+                <li>
+                  Answering any questions or concerns you may have throughout
+                  the application process.{' '}
+                </li>
+              </ul>
             </span>
           </p>
           <p id="u46719-9">&nbsp;</p>
@@ -82,8 +111,8 @@ class Practice extends React.Component {
           <div
             className="browser_width grpelem"
             id="u46714-bw"
-            style={{height: 2822}}>
-            <div id="u46714">
+            style={{minHeight: 0}}>
+            <div id="u46714" style={{minHeight: 0}}>
               {/* column */}
               <div className="clearfix" id="u46714_align_to_page">
                 <div className="clearfix colelem" id="pu46729">
@@ -113,17 +142,14 @@ class Practice extends React.Component {
                               {/* group */}
                               <div className="grpelem" id="u46732">
                                 {/* custom html */}
-                                <i
-                                  className="fa fa-university"
-                                  aria-hidden="true"
-                                />
+                                <i className="fa fa-money" aria-hidden="true" />
                               </div>
                             </div>
                           </div>
                           <div className="clearfix colelem" id="u46730-4">
                             {/* content */}
                             <p id="u46730-2">
-                              <span id="u46730">CORPORATE LAW</span>
+                              <span id="u46730">E1/E2</span>
                             </p>
                           </div>
                         </div>
@@ -136,18 +162,15 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46734-4">
                           {/* content */}
                           <p id="u46734-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Founder or employee of a company that conducts
+                            international trade business or make Investments in
+                            the U.S.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46735-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46735-2">Contact Us Now</p>
                         </a>
@@ -183,7 +206,7 @@ class Practice extends React.Component {
                               <div className="grpelem" id="u46745">
                                 {/* custom html */}
                                 <i
-                                  className="fa fa-diamond"
+                                  className="fa fa-graduation-cap"
                                   aria-hidden="true"
                                 />
                               </div>
@@ -195,7 +218,7 @@ class Practice extends React.Component {
                             data-content-guid="u46746-4_content">
                             {/* content */}
                             <p>
-                              <span id="u46746">BANKING &amp; FINANCE</span>
+                              <span id="u46746">H1B</span>
                             </p>
                           </div>
                         </div>
@@ -208,18 +231,16 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46740-4">
                           {/* content */}
                           <p id="u46740-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Possession of a bachelor or higher degree, or
+                            equivalent work experience, and the offered U.S.
+                            position is a specialty occupation that requires
+                            such degrees.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46747-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46747-2">Contact Us Now</p>
                         </a>
@@ -271,7 +292,7 @@ class Practice extends React.Component {
                                     id="u46757">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-money"
+                                      className="fa fa-line-chart"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -280,7 +301,7 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46753-5">
-                            <span id="u46753-4">BUSINESS TRANSACTION</span>
+                            <span id="u46753-4">J1</span>
                           </p>
                         </div>
                       </div>
@@ -292,18 +313,15 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46749-4">
                           {/* content */}
                           <p id="u46749-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Short term (max. 18 months) internship or training
+                            for those having a foreign degree or work
+                            experience.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46752-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46752-2">Contact Us Now</p>
                         </a>
@@ -343,7 +361,7 @@ class Practice extends React.Component {
                                     id="u46763">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-globe"
+                                      className="fa fa-building"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -352,7 +370,7 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46760-5">
-                            <span id="u46760-4">&nbsp;COMPETITION LAW</span>
+                            <span id="u46760-4">L1</span>
                           </p>
                         </div>
                       </div>
@@ -361,18 +379,14 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46759-4">
                           {/* content */}
                           <p id="u46759-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Transfer of an employee who has worked for at least
+                            one year at a foreign group company.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46766-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46766-2">Contact Us Now</p>
                         </a>
@@ -418,7 +432,7 @@ class Practice extends React.Component {
                                     id="u46773">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-truck"
+                                      className="fa fa-trophy"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -427,7 +441,7 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46769-5">
-                            <span id="u46769-4">TRANSPORT LAW</span>
+                            <span id="u46769-4">O1</span>
                           </p>
                         </div>
                       </div>
@@ -436,18 +450,14 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46774-4">
                           {/* content */}
                           <p id="u46774-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Possession of extraordinary abilities in the
+                            sciences, arts, education, business, or athletics.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46777-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46777-2">Contact Us Now</p>
                         </a>
@@ -487,7 +497,7 @@ class Practice extends React.Component {
                                     id="u46784">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-users"
+                                      className="fa fa-handshake-o"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -496,7 +506,9 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46780-5">
-                            <span id="u46780-4">INTELLECTUAL PROPERTY</span>
+                            <span id="u46780-4">
+                              EMPLOYMENT-BASED GREEN CARD
+                            </span>
                           </p>
                         </div>
                       </div>
@@ -505,18 +517,23 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46787-4">
                           {/* content */}
                           <p id="u46787-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Various application categories through company
+                            sponsorship or self-sponsorship:
+                            <ul style={{textAlign: 'left'}}>
+                              <li>Extraordinary Ability (EB1-A)</li>
+                              <li>
+                                Outstanding professors and researchers (EB1-B)
+                              </li>
+                              <li>
+                                Multinational manager or executive (EB1-C)
+                              </li>
+                            </ul>
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46779-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46779-2">Contact Us Now</p>
                         </a>
@@ -565,7 +582,7 @@ class Practice extends React.Component {
                                     id="u46796">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-handshake-o"
+                                      className="fa fa-users"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -574,7 +591,7 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46793-5">
-                            <span id="u46793-4">FAMILY LAW</span>
+                            <span id="u46793-4">FAMILY-BASED GREEN CARD</span>
                           </p>
                         </div>
                       </div>
@@ -586,18 +603,14 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46791-4">
                           {/* content */}
                           <p id="u46791-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            Having a U.S. citizen or green card holder spouse,
+                            parent, child, or sibling.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46790-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46790-2">Contact Us Now</p>
                         </a>
@@ -637,7 +650,7 @@ class Practice extends React.Component {
                                     id="u46806">
                                     {/* custom html */}
                                     <i
-                                      className="fa fa-gavel"
+                                      className="fa fa-globe"
                                       aria-hidden="true"
                                     />
                                   </span>
@@ -646,7 +659,7 @@ class Practice extends React.Component {
                             </span>
                           </p>
                           <p id="u46802-5">
-                            <span id="u46802-4">CRIMINAL LAW</span>
+                            <span id="u46802-4">CITIZENSHIP</span>
                           </p>
                         </div>
                       </div>
@@ -655,18 +668,13 @@ class Practice extends React.Component {
                         <div className="clearfix grpelem" id="u46800-4">
                           {/* content */}
                           <p id="u46800-2">
-                            Etiam commodo mollis felis hendrerit auctor.
-                            porttitor commodo, enim tellus rhoncus libero, non
-                            viverra augue nisi id ante. Suspendisse potenti. Nam
-                            luctus tortor ut imperdiet egestas. Nunc sem odio,
-                            maximus non velit hendrerit, dapibus sollicitudin
-                            ex. Ut non hendrerit
+                            The last stop of the immigration journey.
                           </p>
                         </div>
                         <a
                           className="nonblock nontext rounded-corners transition clearfix grpelem"
                           id="u46801-4"
-                          href="contact.html">
+                          href="/contact">
                           {/* content */}
                           <p id="u46801-2">Contact Us Now</p>
                         </a>
@@ -697,276 +705,9 @@ class Practice extends React.Component {
                 backgroundPosition: '0px -2087.38px',
               }}>
               {/* group */}
-              <div className="clearfix" id="u46723_align_to_page">
-                <Fade up duration={500}>
-                  <div
-                    className="rgba-background chart1 transition clearfix grpelem shared_content wow fadeInUp"
-                    id="u46724-6"
-                    data-content-guid="u46724-6_content"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.2s"
-                    style={{
-                      animationDuration: '1s',
-                      animationDelay: '0.2s',
-                      animationName: 'none',
-                    }}>
-                    {/* content */}
-                    <p id="u46724-2">1200</p>
-                    <p id="u46724-4">CASES</p>
-                  </div>
-                </Fade>
-                <Fade up duration={500}>
-                  <div
-                    className="rgba-background chart2 transition clearfix grpelem shared_content wow fadeInUp"
-                    id="u46726-6"
-                    data-content-guid="u46726-6_content"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.4s"
-                    style={{
-                      animationDuration: '1s',
-                      animationDelay: '0.4s',
-                      animationName: 'none',
-                    }}>
-                    {/* content */}
-                    <p id="u46726-2">678</p>
-                    <p id="u46726-4">CASE STUDIES</p>
-                  </div>
-                </Fade>
-                <Fade up duration={500}>
-                  <div
-                    className="rgba-background chart3 transition clearfix grpelem shared_content wow fadeInUp"
-                    id="u46725-6"
-                    data-content-guid="u46725-6_content"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.6s"
-                    style={{
-                      animationDuration: '1s',
-                      animationDelay: '0.6s',
-                      animationName: 'none',
-                    }}>
-                    {/* content */}
-                    <p id="u46725-2">790</p>
-                    <p id="u46725-4">CLIENTS</p>
-                  </div>
-                </Fade>
-                <Fade up duration={500}>
-                  <div
-                    className="rgba-background chart4 transition clearfix grpelem shared_content wow fadeInUp"
-                    id="u46727-6"
-                    data-content-guid="u46727-6_content"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.8s"
-                    style={{
-                      animationDuration: '1s',
-                      animationDelay: '0.8s',
-                      animationName: 'none',
-                    }}>
-                    {/* content */}
-                    <p id="u46727-2">3456</p>
-                    <p id="u46727-4">SOLVED CASES</p>
-                  </div>
-                </Fade>
-              </div>
-            </div>
-          </div>
-          <div
-            className="grpelem shared_content"
-            id="u46728"
-            data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7071,M12=-0.7071,M21=0.7071,M22=0.7071,SizingMethod='auto expand')"
-            data-mu-ie-matrix-dx={-6}
-            data-mu-ie-matrix-dy={-6}
-            data-content-guid="u46728_content">
-            {/* simple frame */}
-          </div>
-          <div
-            className="browser_width grpelem shared_content"
-            id="u46808-bw"
-            data-content-guid="u46808-bw_content"
-            style={{height: 157}}>
-            <div id="u46808">{/* simple frame */}</div>
-          </div>
-          <form
-            className="form-grp clearfix grpelem"
-            id="widgetu46809"
-            method="post"
-            encType="multipart/form-data"
-            action="scripts/form-u46809.php">
-            {/* none box */}
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu46817"
-              data-required="true">
-              {/* none box */}
-              <span
-                className="fld-input NoWrap actAsDiv clearfix grpelem"
-                id="u46819-4">
-                {/* content */}
-                <input
-                  className="wrapped-input"
-                  type="text"
-                  spellCheck="false"
-                  id="widgetu46817_input"
-                  name="custom_U46817"
-                  tabIndex={1}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu46817_prompt"
-                  htmlFor="widgetu46817_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu46817_prompt_0_content">
-                    Enter Name
-                  </span>
-                </label>
-              </span>
-            </div>
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu46812"
-              data-required="true"
-              data-type="email">
-              {/* none box */}
-              <span
-                className="fld-input NoWrap actAsDiv clearfix grpelem"
-                id="u46815-4">
-                {/* content */}
-                <input
-                  className="wrapped-input"
-                  type="email"
-                  spellCheck="false"
-                  id="widgetu46812_input"
-                  name="Email"
-                  tabIndex={2}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu46812_prompt"
-                  htmlFor="widgetu46812_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu46812_prompt_0_content">
-                    Enter Email
-                  </span>
-                </label>
-              </span>
-            </div>
-            <div className="clearfix grpelem" id="u46810-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u46810-4_0_content">
-                Submitting Form...
-              </p>
-            </div>
-            <div className="clearfix grpelem" id="u46816-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u46816-4_0_content">
-                The server encountered an error.
-              </p>
-            </div>
-            <div className="clearfix grpelem" id="u46811-4">
-              {/* content */}
-              <p
-                className="shared_content"
-                data-content-guid="u46811-4_0_content">
-                Form received.
-              </p>
-            </div>
-            <input
-              className="submit-btn NoWrap grpelem"
-              id="u46821-17"
-              type="submit"
-              value=""
-              tabIndex={4}
-            />
-            {/* state-based BG images */}
-            <div
-              className="fld-grp clearfix grpelem"
-              id="widgetu46822"
-              data-required="false">
-              {/* none box */}
-              <span
-                className="fld-textarea actAsDiv clearfix grpelem"
-                id="u46824-4">
-                {/* content */}
-                <textarea
-                  className="wrapped-input"
-                  id="widgetu46822_input"
-                  name="custom_U46822"
-                  tabIndex={3}
-                  defaultValue={''}
-                />
-                <label
-                  className="wrapped-input fld-prompt"
-                  id="widgetu46822_prompt"
-                  htmlFor="widgetu46822_input">
-                  <span
-                    className="actAsPara shared_content"
-                    data-content-guid="widgetu46822_prompt_0_content">
-                    Enter Your Message
-                  </span>
-                </label>
-              </span>
-            </div>
-          </form>
-        </div>
-        <div
-          className="clearfix colelem shared_content"
-          id="pu46826"
-          data-content-guid="pu46826_content">
-          {/* group */}
-          <div
-            className="browser_width grpelem shared_content"
-            id="u46826-bw"
-            data-content-guid="u46826-bw_content"
-            style={{height: 454}}>
-            <div id="u46826">{/* simple frame */}</div>
-          </div>
-          <div
-            className="browser_width grpelem"
-            id="u46827-bw"
-            style={{height: 454}}>
-            <div className="museBGSize" id="u46827">
-              {/* column */}
-              <div className="clearfix" id="u46827_align_to_page">
-                <div className="position_content" id="u46827_position_content">
-                  <Fade duration={500}>
-                    <div
-                      className="experience clearfix colelem shared_content wow fadeInUp"
-                      id="u46828-6"
-                      data-content-guid="u46828-6_content"
-                      style={{animationName: 'none'}}>
-                      {/* content */}
-                      <p id="u46828-2">&nbsp;In Justice We Trust</p>
-                      <p id="u46828-4">
-                        &nbsp;Vestibulum ultrices id ipsum in lacinia. Nunc diam
-                        nibh, tempus sed nunc et, ultrices facilisis velit.
-                        Morbi cursus ipsum a arcu ultricies tempor.
-                      </p>
-                    </div>
-                  </Fade>
-                  <div
-                    className="colelem shared_content"
-                    id="u46829"
-                    data-content-guid="u46829_content">
-                    {/* custom html */}
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-        <div
-          className="verticalspacer shared_content"
-          data-offset-top={3948}
-          data-content-above-spacer={3945}
-          data-content-below-spacer={320}
-          data-content-guid="page_position_content_5_content"
-          style={{height: 'calc((100vh - 4265px) + 1px)', minHeight: 1}}
-        />
         <Footer />
       </div>
     )
