@@ -58,7 +58,7 @@ class Footer extends React.Component {
                     <a
                       className="nonblock nontext MuseLinkActive clearfix colelem"
                       id="u2252-4"
-                      href="/">
+                      href="mailto:info@apilaw.com?subject=Case inquiry">
                       {/* content */}
                       <p>info@apilaw.com</p>
                     </a>
@@ -75,7 +75,7 @@ class Footer extends React.Component {
                     <a
                       className="nonblock nontext MuseLinkActive clearfix colelem"
                       id="u2281-4"
-                      href="/">
+                      href="tel:+14158553088">
                       {/* content */}
                       <p>415-855-3088</p>
                     </a>
@@ -113,7 +113,8 @@ class Footer extends React.Component {
                 <a
                   className="nonblock nontext MuseLinkActive clearfix colelem"
                   id="u2281-4"
-                  href="/">
+                  target="_blank"
+                  href="https://www.google.com/maps/place/388+Market+St+%231300,+San+Francisco,+CA+94111/@37.7921824,-122.4004136,17z/data=!3m1!4b1!4m5!3m4!1s0x80858063cdfbecbf:0x981306b598d789d5!8m2!3d37.7921824!4d-122.3982249">
                   {/* content */}
                   <p>388 Market Street, Suite 1300, San Francisco, CA, 94111</p>
                 </a>

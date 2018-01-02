@@ -394,7 +394,7 @@ class Home extends React.Component {
                           <a
                             href="/services"
                             style={{textDecoration: 'none', color: 'black'}}>
-                            -What we do-
+                            -What We Do-
                           </a>
                         </h2>
                       </div>
