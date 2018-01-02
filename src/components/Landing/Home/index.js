@@ -311,7 +311,13 @@ class Home extends React.Component {
                         id="u729-4"
                         data-content-guid="u729-4_content">
                         {/* content */}
-                        <h2>-Who We Are-</h2>
+                        <h2>
+                          <a
+                            href="/about"
+                            style={{textDecoration: 'none', color: 'black'}}>
+                            -Who We Are-
+                          </a>
+                        </h2>
                       </div>
                     </div>
                     <div className="clearfix colelem" id="pu715-15">
