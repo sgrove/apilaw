@@ -17,7 +17,7 @@ const learnMoreStyle = {
   textDecoration: 'none',
 }
 
-const readMore = (
+const _readMore = (
   <p id="u875-10">
     <span id="u875-8">​</span>
     <span className="actAsInlineDiv normal_text" id="u883">
@@ -40,6 +40,8 @@ const readMore = (
     </span>
   </p>
 )
+
+const readMore = null
 
 class Home extends React.Component {
   constructor(props) {
