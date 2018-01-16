@@ -25,7 +25,6 @@ class Header extends React.Component {
     const heroImage = this.props.heroImage
     const heroColor = this.props.heroColor
     const noHero = this.props.noHero
-    console.log('noHero?', noHero)
     return (
       <div
         className="clearfix colelem"
