@@ -436,7 +436,9 @@ class Home extends React.Component {
                             </span>
                           </p>
                           <p id="u875-5">
-                            <span id="u875-4">E1/E2 Visas</span>
+                            <span style={{textDecoration: 'none'}} id="u875-4">
+                              E1/E2 Visas
+                            </span>
                           </p>
                           <p id="u875-7">
                             Companies that conduct international trade business
@@ -468,7 +470,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1001-5">
-                            <span id="u1001-4">O1 VISAS</span>
+                            <span style={{textDecoration: 'none'}} id="u1001-4">
+                              O1 VISAS
+                            </span>
                           </p>
                           <p id="u1001-7">
                             Possession of extraordinary abilities in the
@@ -503,7 +507,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u950-5">
-                            <span id="u950-4">H1B VISAS</span>
+                            <span style={{textDecoration: 'none'}} id="u950-4">
+                              H1B VISAS
+                            </span>
                           </p>
                           <p id="u950-7">
                             Possession of a bachelor or higher degree, or
@@ -535,7 +541,7 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1018-5">
-                            <span id="u1018-4">
+                            <span style={{textDecoration: 'none'}} id="u1018-4">
                               EMPLOYMENT-BASED GREEN CARD
                             </span>
                           </p>
@@ -575,7 +581,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u967-5">
-                            <span id="u967-4">J1 VISAS</span>
+                            <span style={{textDecoration: 'none'}} id="u967-4">
+                              J1 VISAS
+                            </span>
                           </p>
                           <p id="u967-7">
                             Short term internship or training for those having a
@@ -604,7 +612,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1035-5">
-                            <span id="u1035-4">FAMILY-BASED GREEN CARD</span>
+                            <span style={{textDecoration: 'none'}} id="u1035-4">
+                              FAMILY-BASED GREEN CARD
+                            </span>
                           </p>
                           <p id="u1035-7">
                             Having a U.S. citizen or green card holder spouse,
@@ -639,7 +649,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u984-5">
-                            <span id="u984-4">L1 VISAS</span>
+                            <span style={{textDecoration: 'none'}} id="u984-4">
+                              L1 VISAS
+                            </span>
                           </p>
                           <p id="u984-7">
                             Transfer of an employee who has worked for at least
@@ -668,7 +680,9 @@ class Home extends React.Component {
                             <span />
                           </p>
                           <p id="u1052-5">
-                            <span id="u1052-4">CITIZENSHIP</span>
+                            <span style={{textDecoration: 'none'}} id="u1052-4">
+                              CITIZENSHIP
+                            </span>
                           </p>
                           <p id="u1052-7">
                             The last stop on the immigration journey.
