@@ -6,7 +6,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import headerBg from '../../../images/liberty.jpg'
 import sanFranciscoImg from '../../../images/san_francisco.jpg'
-import fireworksImg from '../../../../static/img/fireworks.jpg'
+import fireworksImg from '../../../images/fireworks.jpg'
 import {Fade, Flip, Rotate, Zoom} from 'react-reveal'
 
 const learnMoreStyle = {
