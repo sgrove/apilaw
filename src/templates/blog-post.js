@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Header from '../components/Landing/Header'
 import Footer from '../components/Landing/Footer'
 import headerBg from '../images/liberty.jpg'
+import blogPostCSS from '../css/blog_post.css'
 
 import Bio from '../components/Bio'
 
@@ -78,7 +79,9 @@ class BlogPostTemplate extends React.Component {
             </div>
           </div>
           <div style={{marginBottom: '450px'}} />
-          <div style={{zIndex: '999', marginBottom: '50px'}}>
+          <div
+            className="blog-post-single"
+            style={{zIndex: '999', marginBottom: '50px'}}>
             <p
               style={{
                 display: 'block',
@@ -86,7 +89,7 @@ class BlogPostTemplate extends React.Component {
             />
             <div
               dangerouslySetInnerHTML={{__html: post.html}}
-              style={postStyle}
+              style={Object.assign(postStyle, {padding: '24px'})}
             />
             <hr />
             <div style={postStyle}>

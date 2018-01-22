@@ -12,7 +12,6 @@ import Bio from '../../components/Bio'
 
 const postPreview = (node, idx) => {
   const title = get(node, 'frontmatter.title') || node.fields.slug
-  console.log('~Adding post', title)
   /*
 
     <div key={node.fields.slug}>
@@ -31,8 +30,10 @@ const postPreview = (node, idx) => {
     idx % 2 == 0 && false
       ? {}
       : {
-          width: !!node.frontmatter.heroImage ? '670px' : '1070px',
-          minHeight: '444px',
+          width: false // !!node.frontmatter.heroImage
+            ? '670px'
+            : '1070px',
+          // minHeight: '444px',
           marginRight: '-10000px',
           marginTop: '65px',
           left: '20px',
@@ -42,7 +43,7 @@ const postPreview = (node, idx) => {
       ? {}
       : {
           width: !!node.frontmatter.heroImage ? '400px' : '0px',
-          height: '223px',
+          // height: '223px',
           marginRight: '-10000px',
           marginTop: '65px',
           left: '710px',
@@ -57,14 +58,17 @@ const postPreview = (node, idx) => {
       className="browser_width grpelem shared_content"
       id="u17083-bw"
       data-content-guid="u17083-bw_content"
+      key={idx}
       style={{
-        height: 514,
-        marginTop: 511 * idx + 'px',
+        // height: 514,
+        marginTop: (200 * idx).toString() + 'px',
       }}>
-      {idx == 0 ? null : <hr />}
       <div id="u17083">
         {/* group */}
-        <div className="clearfix" id="u17083_align_to_page">
+        <div
+          className="clearfix"
+          id="u17083_align_to_page"
+          style={{backgroundColor: '#f7f6f3'}}>
           <div
             className="clearfix grpelem shared_content"
             id="u17132-18"
@@ -119,7 +123,7 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <div className="position_content" id="page_position_content">
+      <div className="position_content" id="page_position_content" style={{}}>
         <Helmet title={siteTitle}>
           <link
             rel="stylesheet"

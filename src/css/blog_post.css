@@ -1,0 +1,11 @@
+.blog-post-single li {
+    list-style: inherit;
+}
+
+.blog-post-single ol, .blog-post-single ul {
+    margin: 24px;
+}
+
+.blog-post-single p {
+    margin: 24px;
+}
