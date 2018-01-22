@@ -7,6 +7,7 @@ import Footer from '../Footer'
 import headerBg from '../../../images/liberty.jpg'
 import sanFranciscoImg from '../../../images/san_francisco.jpg'
 import fireworksImg from '../../../images/fireworks.jpg'
+import governmentImg from '../../../../static/img/government.jpg'
 import {Fade, Flip, Rotate, Zoom} from 'react-reveal'
 
 const learnMoreStyle = {
@@ -751,6 +752,70 @@ class Home extends React.Component {
                           className="clearfix grpelem shared_content"
                           id="u1686"
                           data-content-guid="u1686_content">
+                          <div
+                            className="clearfix grpelem shared_content"
+                            id="u1695"
+                            data-content-guid="u1695_content">
+                            {/*<!-- group -->*/}
+                            <div className="clearfix grpelem" id="u1699">
+                              {/*<!-- column -->*/}
+                              <div
+                                className="museBGSize transition shadow rgba-background clearfix colelem"
+                                id="u1701"
+                                style={{
+                                  backgroundImage: 'url(' + governmentImg + ')',
+                                  backgroundSize: '100%',
+                                  backgroundRepeat: 'no-repeat',
+                                  backgroundPosition: 'top left',
+                                }}>
+                                {/*<!-- group -->*/}
+                                <div className="clearfix grpelem" id="u1702-6">
+                                  {/*<!-- content -->*/}
+                                  <p id="u1702-2">22</p>
+                                  <p id="u1702-4">JAN</p>
+                                </div>
+                              </div>
+                              <div className="clearfix colelem" id="u1700-9">
+                                {/*<!-- content -->*/}
+                                <p id="u1700-2">
+                                  <span id="u1700">
+                                    <a
+                                      href="/blog/2018-01-21-en-influence-of-current-government-shutdown/"
+                                      style={{textDecoration: 'none'}}>
+                                      Influence of Current Government Shutdown
+                                    </a>
+                                  </span>
+                                </p>
+                                <p id="u1700-4">
+                                  <span id="u1700-3">Posted by Yan Li</span>
+                                </p>
+                                <p id="u1700-5">&nbsp;</p>
+                                <p id="u1700-7">
+                                  {' '}
+                                  On January 20, 2018, the federal government
+                                  was partially shutdown due to Congress'{/*'*/}
+                                  disagreement on government funding. This will
+                                  affect some immigration applications and
+                                  benefits.
+                                </p>
+                              </div>
+                            </div>
+                            <div className="clearfix grpelem" id="u1696">
+                              {/*<!-- group -->*/}
+                              <div
+                                className="rounded-corners clearfix grpelem"
+                                id="u1697">
+                                {/*<!-- group -->*/}
+                                <div className="grpelem" id="u1698">
+                                  {/*<!-- custom html -->*/}
+                                  <i
+                                    className="fa fa-university"
+                                    aria-hidden="true"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                           {/* group */}
                           <div
                             className="clearfix grpelem shared_content"
