@@ -26,8 +26,6 @@ What will NOT be affected (a partial list):
 2. Visa issuance at oversea embassy or consulate: Embassies and consulates will operate as long as the funding from application fees can support their operations. Therefore, visa issuance should continue for a while, though there may be delays because the fewer number of staff working at the embassies and consulates. 
 3. Port of entry operations: Travelers may still enter the U.S. 
 
-If you are in the middle of an application process, or are 
+If you are in the middle of an application process, or are planning to submit an application soon, contact an immigration attorney immediately to learn what your options are and what you should be careful about.
 
-![](/img/pexels-photo-355959.jpeg)
-
-planning to submit an application soon, contact an immigration attorney immediately to learn what your options are and what you should be careful about.
+![null](/img/pexels-photo-355959.jpeg)
