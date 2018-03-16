@@ -117,7 +117,7 @@ class Contact extends React.Component {
                       </span>
                     </span>
                   </p>
-                  <p id="u25523-5">+1.415-855-3088</p>
+                  <p id="u25523-5">+1.415-855-3055</p>
                 </div>
                 <div
                   className="rounded-corners clearfix grpelem shared_content"
