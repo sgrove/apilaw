@@ -77,7 +77,7 @@ class Footer extends React.Component {
                       id="u2281-4"
                       href="tel:+14158553088">
                       {/* content */}
-                      <p>415-855-3088</p>
+                      <p>415-855-3055</p>
                     </a>
                   </div>
                 </div>
